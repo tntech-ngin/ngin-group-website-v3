@@ -71,7 +71,7 @@ date: 2025-07-13
 ## Panels
 
 - Panelist (with Doug Jennewein, Jeff Whitworth; moderated by Eli Dart), "Implementing Science DMZ as Intended," National Science Foundation PI Workshop, September 15, 2021
-- Panelist (with L. Zhang, A. Afanasyev, T. Hasegawa, A. Grieco, T. Leng), "Real-World ICN Deployments — Perspective and Challenges," IEEE ICC, Kansas City, MO, 2018
+- Moderator (with L. Zhang, A. Afanasyev, T. Hasegawa, A. Grieco, T. Leng), "Real-World ICN Deployments — Perspective and Challenges," IEEE ICC, Kansas City, MO, 2018
 
 ## Workshops Attended
 

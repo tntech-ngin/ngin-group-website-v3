@@ -9,10 +9,6 @@ The NGIN Lab is based in the Computer Science department at Tennessee Technologi
 
 **[sshannigrahi@tntech.edu](mailto:sshannigrahi@tntech.edu)**
 
-## Prospective Students
-
-We are recruiting PhD students. If designing the next-generation Internet, low-latency AR/VR, 5G mobile networks, or smart vehicular networks interests you, [get in touch](mailto:sshannigrahi@tntech.edu).
-
 ## Team
 
 Contact information for individual lab members is available on the [Team](/team/) page.

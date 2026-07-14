@@ -3,7 +3,7 @@ title: "Teaching"
 date: 2025-07-13
 ---
 
-Courses taught by Dr. Shannigrahi at Tennessee Technological University:
+Courses taught at Tennessee Technological University:
 
 - Fall 2025: CSC4200/5200, "Computer Networking", 35 students
 - Fall 2025: CSC4780, "Advanced Network Security", 18 students
