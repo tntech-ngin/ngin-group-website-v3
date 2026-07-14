@@ -15,36 +15,13 @@ date: 2025-07-13
 - Travel award to participate in NSF Data Science Workshop, University of Washington, Seattle, 2015
 - NSF travel award for attending ICNP, 2013
 
-## Teaching & Service Grants
-
-- Senior Personnel, *CyberCorps Scholarship for Service (Renewal): An Enhanced and Integrated Scholar Experience in Cybersecurity* #2043324, NSF, $4,443,669 (Aug 2021–Jul 2026)
-- Co-PI, *Integrating Open Educational Resources for Computer Networks Course*, Tennessee Board of Regents, $17,381 (Jun 2024–Jun 2025)
-- PI, *Open Edge-Cloud Teaching Lab (OECTL)*, Tennessee Tech, $79,750 (Aug 2021)
-- Co-PI, *Computer Science Hub Outreach for P-12/K-12 Students and Teachers*, State of Tennessee via Battelle Education, $50,000 (Jun 2022–Jun 2023)
-- PI, *Networking Teaching Laboratory Improvement*, Tennessee Tech, $5,000 (Jul 2020)
-
-**Total teaching & service funding: $4,595,800**
-
-## Equipment, Infrastructure & Other Grants
-
-- PI, Google Cloud Research Credits, $5,000 (Aug 2020–Jul 2023)
-- Cisco Gift, X86 node for hICN testbed, approximate value $35,000
-- PI, Faculty Research Grant, *Integrating Cloud Resources into Genomics Workflow using Next-Generation Networking*, Tennessee Tech, $10,000 (Jul 2020–Jun 2021)
-- Misc., Google Cloud Platform Education Grant, cloud credits for teaching, $14,000
-
-**Total equipment, infrastructure & other grants: $64,000**
-
 ## Review Panels
 
-- National Science Foundation Review Panels, 2021–2025
+- National Science Foundation Review Panels, 2021–2026
 
 ## Editorial Boards, Chairs & Panels
 
-- Editorial Board, MDPI Electronics, 2021–present
-- Editorial Board, MDPI Mathematics, 2021–present
-- Reviewer Board, MDPI Electronics, 2020–present
-- Reviewer, Computer Networks (Elsevier)
-- TPC Chair, IEEE ANTS 2026
+- TPC Co-Chair, IEEE ANTS 2026
 - Session Chair, IEEE ICCCN, 2025
 - Session Chair, IFIP Networking, 2023
 - Session Chair, IEEE VNC, 2023
@@ -54,9 +31,14 @@ date: 2025-07-13
 - Co-Chair, NDN Community Meeting, NIST, Washington DC, 2021
 - Session Chair (NDN Trial Deployments), Named Data Networking Community Meeting (Virtual Conference), 2020
 - Travel Chair, ACM Conference on Information-Centric Networking (ACM-ICN), 2020
+- Editorial Board, MDPI Electronics, 2021–present
+- Editorial Board, MDPI Mathematics, 2021–present
+- Reviewer Board, MDPI Electronics, 2020–present
+- Reviewer, Computer Networks (Elsevier)
 
 ## Technical Program Committees
-
+- TPC member, IEEE INFOCOM 2027
+- TPC member, IEEE INFOCOM 2026
 - IEEE VNC, Montréal, Canada, 2026
 - IEEE ISM '25, Naples, Italy, 2025
 - IEEE INFOCOM, London, UK, 2025
@@ -103,12 +85,12 @@ date: 2025-07-13
 Partial list: IEEE/ACM Transactions on Networking · ACM ICN · IFIP Networking · INFOCOM-NOM · ICNP · INFOCOM · Computer Communication Review · IEEE Communications Society (COMSOC) journals · Future Generation Computer Systems · IEEE Transactions on Services Computing · Caching for Communication Systems and Networks · IEEE Transactions on Education · MDPI journals · IEEE Internet of Things Journal · Vehicular Communications Journal · Computer Networks (Elsevier)
 
 ## Internal Service — Tennessee Tech
-
-- Tennessee Tech One-to-One Technology Committee, 2023–present
+- Graduate Coordinator, 2025-present
 - College of Engineering Graduate Executive Committee, 2023–present
-- ITS Search Committee, 2023
 - CS Graduate Committee, 2022–present
-- CS Faculty Search Committee, 2021–present
-- Network Upgrade and Science DMZ Implementation Committee, 2020–present
+- Tennessee Tech One-to-One Technology Committee, 2023–2024
+- ITS Search Committee, 2023
+- CS Faculty Search Committee, 2021, 2022, 2023
+- Network Upgrade and Science DMZ Implementation Committee, 2020–2024
 - Engineering Building Committees (HVAC, Power, Vibration), 2020–2022
 - Cloud Infrastructure for Research Committee, 2020
