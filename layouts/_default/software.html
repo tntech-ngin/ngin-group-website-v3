@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="page-wrap">
+  <div class="page-inner" style="max-width:var(--max-width)">
+    <header class="page-header">
+      <div class="eyebrow">Software</div>
+      <h1>{{ .Title }}</h1>
+    </header>
+
+    {{ if .Content }}<div class="page-content" style="margin-bottom:2rem">{{ .Content }}</div>{{ end }}
+
+    <div class="software-grid">
+      {{ range .Site.Data.software }}
+      <a href="{{ .url }}" target="_blank" rel="noopener" class="software-card">
+        <div class="software-card-header">
+          <h2>{{ .name }}</h2>
+          {{ with .funder }}<span class="software-funder">{{ . }}</span>{{ end }}
+        </div>
+        <p class="software-desc">{{ .description }}</p>
+        <span class="software-link">
+          {{ if in .url "github.com" }}{{ partial "icon.html" "github" }}View on GitHub{{ else }}Visit site{{ end }} →
+        </span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

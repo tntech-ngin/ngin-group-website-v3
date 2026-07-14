@@ -1,0 +1,38 @@
+{{ define "main" }}
+<div class="page-wrap">
+  <div class="page-inner">
+    <header class="page-header">
+      <div class="eyebrow">Talks</div>
+      <h1>{{ .Title }}</h1>
+    </header>
+
+    {{ $invited := where .Pages "Params.tag" "invited-talk" }}
+    {{ if $invited }}
+    <h2 class="talks-subsection">Invited Talks</h2>
+    <div class="news-line-list">
+      {{ range $invited.ByDate.Reverse }}
+      <a href="{{ .RelPermalink }}" class="news-line">
+        <span class="news-line-title">{{ .Title }}</span>
+        <span class="news-line-date">{{ with .Params.venue }}{{ . }} · {{ end }}{{ .Date.Format "2006" }}</span>
+        <span class="news-line-more">Details →</span>
+      </a>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{ $presentations := where .Pages "Params.tag" "presentation" }}
+    {{ if $presentations }}
+    <h2 class="talks-subsection">Presentations</h2>
+    <div class="news-line-list">
+      {{ range $presentations.ByDate.Reverse }}
+      <a href="{{ .RelPermalink }}" class="news-line">
+        <span class="news-line-title">{{ .Title }}</span>
+        <span class="news-line-date">{{ with .Params.venue }}{{ . }} · {{ end }}{{ .Date.Format "2006" }}</span>
+        <span class="news-line-more">Details →</span>
+      </a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

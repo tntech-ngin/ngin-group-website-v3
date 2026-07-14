@@ -11,9 +11,10 @@
           {{ end }}
         </div>
         <div class="member-meta">
-          {{ with .Params.email }}<a href="mailto:{{ . }}" class="member-contact">{{ . }}</a>{{ end }}
-          {{ with .Params.linkedin }}<a href="{{ . }}" class="member-contact" target="_blank" rel="noopener">LinkedIn</a>{{ end }}
-          {{ with .Params.website }}<a href="{{ . }}" class="member-contact" target="_blank" rel="noopener">Website</a>{{ end }}
+          {{ with .Params.email }}<a href="mailto:{{ . }}" class="member-contact">{{ partial "icon.html" "email" }}{{ . }}</a>{{ end }}
+          {{ with .Params.linkedin }}<a href="{{ . }}" class="member-contact" target="_blank" rel="noopener">{{ partial "icon.html" "linkedin" }}LinkedIn</a>{{ end }}
+          {{ with .Params.website }}<a href="{{ . }}" class="member-contact" target="_blank" rel="noopener">{{ partial "icon.html" "scholar" }}Google Scholar</a>{{ end }}
+          {{ with .Params.cv_url }}<a href="{{ . | relURL }}" class="member-contact" target="_blank" rel="noopener">{{ partial "icon.html" "cv" }}Download CV</a>{{ end }}
         </div>
       </aside>
       <div class="member-body">

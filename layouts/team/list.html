@@ -5,8 +5,18 @@
       <div class="eyebrow">People</div>
       <h1>{{ .Title }}</h1>
     </header>
+
+    {{ $categories := slice
+      (dict "key" "phd" "label" "PhD Students")
+      (dict "key" "ms" "label" "MS Students")
+      (dict "key" "undergraduate" "label" "Undergraduate Students")
+    }}
+
+    {{ $pis := where .Pages "Params.pi" true }}
+    {{ if $pis }}
+    <div class="team-section-label">Principal Investigator</div>
     <div class="team-grid">
-      {{ range .Pages.ByTitle }}
+      {{ range $pis }}
       <a href="{{ .RelPermalink }}" class="team-card">
         <div class="team-card-photo">
           {{ if .Params.image }}
@@ -23,6 +33,73 @@
       </a>
       {{ end }}
     </div>
+    {{ end }}
+
+    {{ $current := where .Pages "Params.status" "current" }}
+    {{ if $current }}
+    <div class="team-section-label">Current Members</div>
+    {{ range $categories }}
+      {{ $group := where $current "Params.category" .key }}
+      {{ if $group }}
+      <h3 class="team-subsection">{{ .label }}</h3>
+      <div class="team-grid">
+        {{ range $group.ByTitle }}
+        <div class="team-card">
+          <a href="{{ .RelPermalink }}" class="team-card-link">
+            <div class="team-card-photo">
+              {{ if .Params.image }}
+              <img src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Params.name | default .Title }}">
+              {{ else }}
+              <div class="team-card-photo--placeholder">?</div>
+              {{ end }}
+            </div>
+            <div class="team-card-info">
+              <div class="team-card-name">{{ .Params.name | default .Title }}</div>
+              {{ with .Params.years }}<div class="team-card-years">{{ . }}</div>{{ end }}
+              {{ with .Params.focus }}<div class="team-card-focus">{{ . }}</div>{{ end }}
+            </div>
+          </a>
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+    {{ end }}
+    {{ end }}
+
+    {{ $alumni := where .Pages "Params.status" "alumni" }}
+    {{ if $alumni }}
+    <div class="team-section-label">Alumni</div>
+    {{ range $categories }}
+      {{ $group := where $alumni "Params.category" .key }}
+      {{ if $group }}
+      <h3 class="team-subsection">{{ .label }}</h3>
+      <div class="team-grid">
+        {{ range $group.ByTitle }}
+        <div class="team-card">
+          <a href="{{ .RelPermalink }}" class="team-card-link">
+            <div class="team-card-photo">
+              {{ if .Params.image }}
+              <img src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Params.name | default .Title }}">
+              {{ else }}
+              <div class="team-card-photo--placeholder">?</div>
+              {{ end }}
+            </div>
+            <div class="team-card-info">
+              <div class="team-card-name">{{ .Params.name | default .Title }}</div>
+              {{ with .Params.years }}<div class="team-card-years">{{ . }}</div>{{ end }}
+              {{ with .Params.focus }}<div class="team-card-focus">{{ . }}</div>{{ end }}
+              {{ with .Params.thesis_title }}<div class="team-card-thesis-title">Thesis: {{ . }}</div>{{ end }}
+              {{ with .Params.now_at }}<div class="team-card-now-at">Now: {{ . }}</div>{{ end }}
+            </div>
+          </a>
+          {{ with .Params.thesis_url }}<a href="{{ . }}" target="_blank" rel="noopener" class="team-card-thesis">Thesis →</a>{{ end }}
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+    {{ end }}
+    {{ end }}
+
   </div>
 </div>
 {{ end }}

@@ -1,4 +1,4 @@
 ---
 title: "Meet the Team"
-description: "The TREN leadership team spanning Tennessee's four anchor institutions."
+description: "The NGIN Lab team at Tennessee Technological University."
 ---

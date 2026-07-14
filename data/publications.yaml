@@ -1,0 +1,659 @@
+- year: 2025
+  entries:
+  - key: fitzgerald2025looking
+    title: Looking for Errors TCP Misses
+    authors:
+    - Jack Fitzgerald
+    - Anju Gopinath
+    - Logan Cadman
+    - Sepideh Abdollah
+    - Susmit Shannigrahi
+    - Craig Partridge
+    venue: IEEE NOMS
+    year: 2025
+    link: ''
+  - key: wang2025psmoa
+    title: 'PSMOA: Policy Support Multi-Objective Optimization Algorithm for Decentralized Data Replication'
+    authors:
+    - Xi Wang
+    - Susmit Shannigrahi
+    venue: IEEE ICC 2025
+    year: 2025
+    link: ''
+  - key: timilsina2025learning
+    title: 'Learning to Schedule: A Supervised Learning Framework for Network-Aware Scheduling of Data-Intensive Workloads'
+    authors:
+    - Sankalpa Timilsina
+    - Susmit Shannigrahi
+    venue: Proceedings of the SC'25 Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis
+    year: 2025
+    link: ''
+  - key: wang2025psmoa
+    title: 'PSMOA: Policy Support for Data Replication'
+    authors:
+    - Xi Wang
+    - Susmit Shannigrahi
+    venue: 2025 IEEE 22nd Consumer Communications & Networking Conference (CCNC)
+    year: 2025
+    link: ''
+  - key: usmani2025securing
+    title: Securing Immersive 360 Video Streams through Attribute-Based Selective Encryption
+    authors:
+    - Mohammad Waquas Usmani
+    - Susmit Shannigrahi
+    - Michael Zink
+    venue: ArXiV
+    year: 2025
+    link: ''
+  - key: abdollah2025mdtp
+    title: MDTP–An Adaptive Multi-Source Data Transfer Protocol
+    authors:
+    - Sepideh Abdollah
+    - Craig Partridge
+    - Susmit Shannigrahi
+    venue: IEEE ICCCN
+    year: 2025
+    link: ''
+  - key: waquas2025securing
+    title: Securing Immersive 360 Video Streams through Attribute-Based Selective Encryption
+    authors:
+    - Mohammad Waquas Usmani
+    - Susmit Shannigrahi
+    - Michael Zink
+    venue: arXiv e-prints
+    year: 2025
+    link: ''
+  - key: usmani2025lightweight
+    title: Lightweight DRM for Volumetric Point Clouds through Attribute-Based Selective Coordinate Encryption
+    authors:
+    - Mohammad Waquas Usmani
+    - Susmit Shannigrahi
+    - Michael Zink
+    venue: Proceedings of the XRSecurity 2025 Workshop, Co-located with ACM MobiHoc 2025
+    year: 2025
+    link: https://doi.org/10.1145/3704413.3765298
+  - key: timilsina2025schedule
+    title: 'Learning to Schedule: A Supervised Learning Framework for Network-Aware Scheduling of Data-Intensive Workloads'
+    authors:
+    - Sankalpa Timilsina
+    - Susmit Shannigrahi
+    venue: INDIS Workshop, Supercomputing 2025
+    year: 2025
+    link: ''
+  - key: usmani2025secure
+    title: 'Secure the Stream, Not the Hosts: Attribute-Based Encryption for DRM Enabled Video Streaming'
+    authors:
+    - Mohammad Waquas Usmani
+    - Susmitl Shannigrahi
+    - Michael Zink
+    venue: IEEE MMSys
+    year: 2025
+    link: ''
+  - key: latham2025aquacam
+    title: 'AquaCam: An ML-enhanced Low-Cost, Deploy-Anywhere Water Level Detection Sensor'
+    authors:
+    - Jacob Latham
+    - Grace Dadzie
+    - Alfred Kalyanapu
+    - Susmit Shannigrahi
+    venue: IEEE PerCom
+    year: 2025
+    link: ''
+- year: 2024
+  entries:
+  - key: timilsina2024lidc
+    title: 'LIDC: A Location Independent Multi-Cluster Computing Framework for Data Intensive Science'
+    authors:
+    - Sankalpa Timilsina
+    - Susmit Shannigrahi
+    venue: INDIS Workshop, Supercomputing 2024
+    year: 2024
+    link: ''
+  - key: iordache2024named
+    title: A Named Data Networking Based Fast Open Storage System Plugin for XRootD
+    authors:
+    - Cătălin Iordache
+    - Susmit Shannigrahi
+    - Yuanhao Wu
+    - Sichen Song
+    - Faruk Volkan Multu
+    - Justas Balcas
+    - Raimondas Širvinskas
+    - Sankalpa Timilsina
+    - Davide Pesavento
+    - Harvey Newman
+    - others
+    venue: EPJ Web of Conferences
+    year: 2024
+    link: ''
+  - key: sankalpa2024indis
+    title: 'LIDC: A Location Independent Multi-Cluster Computing Framework for Data Intensive Science'
+    authors:
+    - Sankalpa Timilsina
+    - Susmit Shannigrahi
+    venue: Accepted, To Appear at Indis workshop at SC '24
+    year: 2024
+    link: ''
+  - key: mutter2024sciencedmznetworksdifferent
+    title: 'Science DMZ Networks: How Different are They Really?'
+    authors:
+    - Emily Mutter
+    - Susmit Shannigrahi
+    venue: Accepted, To Appear in IEEE LCN '24
+    year: 2024
+    link: https://arxiv.org/abs/2407.01822
+  - key: presley2024hydra
+    title: 'Hydra: A Scalable Decentralized P2P Storage Federation for Large Scientific Datasets'
+    authors:
+    - Justin Presley
+    - Xi Wang
+    - Xusheng Ai
+    - Tianyuan Yu
+    - Tymothy Brandel
+    - Proyash Podder
+    - Varun Patil
+    - Alexander Afanasyev
+    - Frank Feltus
+    - Lixia Zhang
+    - others
+    venue: 2024 International Conference on Computing, Networking and Communications (ICNC)
+    year: 2024
+    link: ''
+- year: 2023
+  entries:
+  - key: threet2023argument
+    title: An Argument for NDN Bridges in Hierarchical In-Vehicle Networks
+    authors:
+    - Zachariah Threet
+    - Christos Papadopoulos
+    - Susmit Shannigrahi
+    venue: IEEE VNC
+    year: 2023
+    link: ''
+  - key: islam2023software
+    title: Software-Defined Network-Based Proactive Routing Strategy in Smart Power Grids Using Graph Neural Network and Reinforcement Learning
+    authors:
+    - Md Aminul Islam
+    - Muhammad Ismail
+    - Rachad Atat
+    - Osman Boyaci
+    - Susmit Shannigrahi
+    venue: e-Prime-Advances in Electrical Engineering, Electronics and Energy
+    year: 2023
+    link: ''
+  - key: wang2023gnsga
+    title: 'GNSGA: A Decentralized Data Replication Algorithm for Big Science Data'
+    authors:
+    - Xi Wang
+    - Xusheng Ai
+    - F Alex Feltus
+    - Susmit Shannigrahi
+    venue: 2023 IFIP Networking Conference (IFIP Networking)
+    year: 2023
+    link: ''
+  - key: shannigrahi2023big
+    title: Big Data, Transmission Errors, and the Internet
+    authors:
+    - Susmit Shannigrahi
+    - Craig Partridge
+    venue: 2023 53rd Annual IEEE/IFIP International Conference on Dependable Systems and Networks-Supplemental Volume (DSN-S)
+    year: 2023
+    link: ''
+  - key: sankalpa2023capture
+    title: Capture and Analysis of Traffic Traces on a Wide-Area NDN Testbed
+    authors:
+    - Sankalpa Timilsina
+    - Davide Pesavento
+    - Junxiao Shi
+    - Susmit Shannigrahi
+    - Lotfi Benmohamed
+    venue: ACM Conference on Information-Centric Networking (ACM ICN ’23)
+    year: 2023
+    link: ''
+- year: 2022
+  entries:
+  - key: https://doi.org/10.48550/arxiv.2211.00919
+    title: Hydra – A Federated Data Repository over NDN
+    authors:
+    - Justin Presley
+    - Xi Wang
+    - Tym Brandel
+    - Xusheng Ai
+    - Proyash Podder
+    - Tianyuan Yu
+    - Varun Patil
+    - Lixia Zhang
+    - Alex Afanasyev
+    - F. Alex Feltus
+    - Susmit Shannigrahi
+    venue: arXiv
+    year: 2022
+    link: https://arxiv.org/abs/2211.00919
+  - key: robert1
+    title: Vehicle-to-Vehicle Charging Coordination over Information Centric Networking
+    authors:
+    - Robert Thompson
+    - Muhammad Ismail
+    - Susmit Shannigrahi
+    venue: (Accepted, to appear in LCN 2022)
+    year: 2022
+    link: https://arxiv.org/abs/2206.09310
+  - key: '9922194'
+    title: Securing Automotive Architectures with Named Data Networking
+    authors:
+    - Zachariah Threet
+    - Christos Papadopoulos
+    - William Lambert
+    - Proyash Podder
+    - Spiros Thanasoulas
+    - Alex Afanasyev
+    - Sheikh Ghafoor
+    - Susmit Shannigrahi
+    venue: 2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)
+    year: 2022
+    link: https://doi.org/10.1109/ITSC55140.2022.9922194
+  - key: '9843207'
+    title: Vehicle-to-Vehicle Charging Coordination over Information Centric Networking
+    authors:
+    - Robert Thompson
+    - Muhammad Ismail
+    - Susmit Shannigrahi
+    venue: 2022 IEEE 47th Conference on Local Computer Networks (LCN)
+    year: 2022
+    link: https://doi.org/10.1109/LCN53696.2022.9843207
+  - key: 10.1145/3517212.3558087
+    title: 'N-DISE: NDN-Based Data Distribution for Large-Scale Data-Intensive Science'
+    authors:
+    - Yuanhao Wu
+    - Faruk Volkan Mutlu
+    - Yuezhou Liu
+    - Edmund Yeh
+    - Ran Liu
+    - Catalin Iordache
+    - Justas Balcas
+    - Harvey Newman
+    - Raimondas Sirvinskas
+    - Michael Lo
+    - Sichen Song
+    - Jason Cong
+    - Lixia Zhang
+    - Sankalpa Timilsina
+    - Susmit Shannigrahi
+    - Chengyu Fan
+    - Davide Pesavento
+    - Junxiao Shi
+    - Lotfi Benmohamed
+    venue: Proceedings of the 9th ACM Conference on Information-Centric Networking
+    year: 2022
+    link: https://doi.org/10.1145/3517212.3558087
+  - key: islam2022software1
+    title: Graph Neural Network Based Prediction of Data Traffic in Cyber-Physical Smart Power Grids
+    authors:
+    - Md Aminul Islam
+    - Muhammad Ismail
+    - Rachad Atat
+    - Susmit Shannigrahi
+    venue: IEEE SmartGridComm'22 (Accepted, To appear)
+    year: 2022
+    link: ''
+  - key: islam2022software
+    title: Software-Defined Routing Strategy Based on Reinforcement Learning in Smart Power Grid
+    authors:
+    - Md Aminul Islam
+    - Muhammad Ismail
+    - Rachad Atat
+    - Susmit Shannigrahi
+    venue: SoutheastCon 2022
+    year: 2022
+    link: ''
+  - key: dasgupta2022hybrid
+    title: 'A Hybrid NDN-IP Architecture for Live Video Streaming: From Host-Based to Content-Based Delivery to Improve QoE'
+    authors:
+    - Ishita Dasgupta
+    - Susmit Shannigrahi
+    - Michael Zink
+    venue: International Journal of Semantic Computing
+    year: 2022
+    link: ''
+  - key: reddick2022wip
+    title: 'WiP: AABAC-Automated Attribute Based Access Control for Genomics Data'
+    authors:
+    - David Reddick
+    - Justin Presley
+    - Frank Alex Feltus
+    - Susmit Shannigrahi
+    venue: Proceedings of the 27th ACM on Symposium on Access Control Models and Technologies
+    year: 2022
+    link: ''
+  - key: threet2022securing
+    title: Securing Automotive Architectures with Named Data Networking
+    authors:
+    - Zachariah Threet
+    - Christos Papadopoulos
+    - William Lambert
+    - Proyash Podder
+    - Spiros Thanasoulas
+    - Alex Afanasyev
+    - Sheikh Ghafoor
+    - Susmit Shannigrahi
+    venue: Accepted, To Apear in IEEE ITSC 2022
+    year: 2022
+    link: ''
+  - key: robert
+    title: An Information Centric Framework for Weather Sensing Data
+    authors:
+    - Robert Thompson
+    - Eric Lyons
+    - Ishita Dasgupta
+    - Spyridon Mastorakis
+    - Michael Zink
+    - Susmit Shannigrahi
+    venue: Accepted, to appear in ICC RAFNET Workshop
+    year: 2022
+    link: ''
+  - key: 10.1109/ICCWorkshops53468.2022.9882164
+    title: An Information Centric Framework for Weather Sensing Data
+    authors:
+    - Robert Thompson
+    - Eric Lyons
+    - Ishita Dasgupta
+    - Spyridon Mastorakis
+    - Michael Zink
+    - Susmit Shannigrahi
+    venue: 2022 IEEE International Conference on Communications Workshops (ICC Workshops)
+    year: 2022
+    link: https://doi.org/10.1109/ICCWorkshops53468.2022.9882164
+- year: 2021
+  entries:
+  - key: liu2021designing
+    title: 'Designing Hydra with Centralized versus Decentralized Control: A Comparative Study'
+    authors:
+    - Siqi Liu
+    - Varun Patil
+    - Tianyuan Yu
+    - Alexander Afanasyev
+    - Frank Alex Feltus
+    - Susmit Shannigrahi
+    - Lixia Zhang
+    venue: Proceedings of the Interdisciplinary Workshop on (de) Centralization in the Internet
+    year: 2021
+    link: ''
+  - key: papadopoulos2021name
+    title: A Name-Based Secure Communications Architecture for Vehicular Networks
+    authors:
+    - Christos Papadopoulos
+    - Alexander Afanasyev
+    - Susmit Shannigrahi
+    venue: 2021 IEEE Vehicular Networking Conference (VNC)
+    year: 2021
+    link: ''
+  - key: dasgupta2021hybrid
+    title: 'A hybrid NDN-IP Architecture for Live Video Streaming: A QoE Analysis'
+    authors:
+    - Ishita Dasgupta
+    - Susmit Shannigrahi
+    - Michael Zink
+    venue: 2021 IEEE International Symposium on Multimedia (ISM)
+    year: 2021
+    link: ''
+  - key: 10.1145/3460417.3483374
+    title: In-Vehicle Networking with NDN
+    authors:
+    - Christos Papadopoulos
+    - Susmit Shannigrahi
+    - Alex Afanaseyv
+    venue: Proceedings of the 8th ACM Conference on Information-Centric Networking
+    year: 2021
+    link: https://doi.org/10.1145/3460417.3483374
+  - key: '9475170'
+    title: 'Networking and Computing in Biomechanical Research: Challenges and Directions'
+    authors:
+    - Spyridon Mastorakis
+    - Andreas Skiadopoulos
+    - Susmit Shannigrahi
+    - Aaron Likens
+    - Boubakr Nour
+    - Nicholas Stergiou
+    venue: IEEE Communications Magazine
+    year: 2021
+    link: https://doi.org/10.1109/MCOM.001.2000639
+  - key: '9525006'
+    title: 'CLEDGE: A Hybrid Cloud-Edge Computing Framework over Information Centric Networking'
+    authors:
+    - Md Washik Al Azad
+    - Susmit Shannigrahi
+    - Nicholas Stergiou
+    - Francisco R. Ortega
+    - Spyridon Mastorakis
+    venue: 2021 IEEE 46th Conference on Local Computer Networks (LCN)
+    year: 2021
+    link: https://doi.org/10.1109/LCN52139.2021.9525006
+  - key: 10.3389/fdata.2021.582468
+    title: Named Data Networking for Genomics Data Management and Integrated Workflows
+    authors:
+    - Cameron Ogle
+    - David Reddick
+    - Coleman McKnight
+    - Tyler Biggs
+    - Rini Pauly
+    - Stephen P. Ficklin
+    - F. Alex Feltus
+    - Susmit Shannigrahi
+    venue: Frontiers in Big Data
+    year: 2021
+    link: https://www.frontiersin.org/article/10.3389/fdata.2021.582468
+- year: 2020
+  entries:
+  - key: '9335806'
+    title: Named Data Networking for Content Delivery Network Workflows
+    authors:
+    - R. K. Thelagathoti
+    - S. Mastorakis
+    - A. Shah
+    - H. Bedi
+    - S. Shannigrahi
+    venue: 2020 IEEE 9th International Conference on Cloud Networking (CloudNet)
+    year: 2020
+    link: https://doi.org/10.1109/CloudNet51028.2020.9335806
+  - key: 10.1145/3405656.3418717
+    title: What's in a Name? Naming Big Science Data in Named Data Networking
+    authors:
+    - Susmit Shannigrahi
+    - Chengyu Fan
+    - Craig Partridge
+    venue: Proceedings of the 7th ACM Conference on Information-Centric Networking
+    year: 2020
+    link: https://doi.org/10.1145/3405656.3418717
+  - key: 10.1145/3411496.3421221
+    title: 'Dynamic Address Validation Array (DAVA): A Moving Target Defense Protocol for CAN Bus'
+    authors:
+    - Richard Brown
+    - Alex Marti
+    - Chris Jenkins
+    - Susmit Shannigrahi
+    venue: Proceedings of the 7th ACM Workshop on Moving Target Defense
+    year: 2020
+    link: https://doi.org/10.1145/3411496.3421221
+  - key: 10.1145/3405656.3418711
+    title: Discovering In-Network Caching Policies in NDN Networks from a Measurement Perspective
+    authors:
+    - Chengyu Fan
+    - Susmit Shannigrahi
+    - Christos Papadopoulos
+    - Craig Partridge
+    venue: Proceedings of the 7th ACM Conference on Information-Centric Networking
+    year: 2020
+    link: https://doi.org/10.1145/3405656.3418711
+  - key: '9145075'
+    title: Next-Generation Networking and Edge Computing for Mixed Reality Real-Time Interactive Systems
+    authors:
+    - S. Shannigrahi
+    - S. Mastorakis
+    - F. R. Ortega
+    venue: 2020 IEEE International Conference on Communications Workshops (ICC Workshops)
+    year: 2020
+    link: https://doi.org/10.1109/ICCWorkshops49005.2020.9145075
+  - key: lordache2020named
+    title: Named Data Networking based File Access for XRootD
+    authors:
+    - Cǎtǎlin Iordache
+    - Ran Liu
+    - Justas Balcas
+    - Raimondas Srivinskas
+    - Yuanhao Wu
+    - Chengyu Fan
+    - Susmit Shannigrahi
+    - Harvey Newman
+    - Edmund Yeh
+    venue: EPJ Web Conf.
+    year: 2020
+    link: https://doi.org/10.1051/epjconf/202024504018
+- year: 2018
+  entries:
+  - key: Shannigrahi:2018:BID:3229574.3229575
+    title: 'Bridging the ICN Deployment Gap with IPoC: An IP-over-ICN Protocol for 5G Networks'
+    authors:
+    - Susmit Shannigrahi
+    - Chengyu Fan
+    - Greg White
+    venue: Proceedings of the 2018 Workshop on Networking for Emerging Applications and Technologies
+    year: 2018
+    link: http://doi.acm.org/10.1145/3229574.3229575
+  - key: '8403576'
+    title: Named Data Networking Strategies for Improving Large Scientific Data Transfers
+    authors:
+    - Susmit Shannigrahi
+    - Chengyu Fan
+    - Christos Papadopoulos
+    venue: 2018 IEEE International Conference on Communications Workshops (ICC Workshops)
+    year: 2018
+    link: ''
+  - key: '8540804'
+    title: 'NDN Construction for Big Science: Lessons Learned from Establishing a Testbed'
+    authors:
+    - H. Lim
+    - A. Ni
+    - D. Kim
+    - Y. Ko
+    - S. Shannigrahi
+    - C. Papadopoulos
+    venue: IEEE Network
+    year: 2018
+    link: https://doi.org/10.1109/MNET.2018.1800088
+  - key: journal
+    title: NDN-SCI - Building a Large Scientific Data Management Framework using Named Data Networking(under review)
+    authors:
+    - Susmit Shannigrahi
+    - Chengyu Fan
+    - Christos Papadopoulos
+    venue: IEEE Transactions on Computing Systems
+    year: 2018
+    link: ''
+  - key: Shannigrahi:scari
+    title: 'SCARI: A Strategic Caching and Reservation Protocol for ICN'
+    authors:
+    - Susmit Shannigrahi
+    - Chengyu Fan
+    - Christos Papadopoulos
+    venue: Proceedings of the Asian Internet Engineering Conference
+    year: 2018
+    link: http://doi.acm.org/10.1145/3125719.3125722
+- year: 2017
+  entries:
+  - key: Shannigrahi:2017:RAC:3125719.3125722
+    title: 'Request Aggregation, Caching, and Forwarding Strategies for Improving Large Climate Data Distribution with NDN: A Case Study'
+    authors:
+    - Susmit Shannigrahi
+    - Chengyu Fan
+    - Christos Papadopoulos
+    venue: Proceedings of the 4th ACM Conference on Information-Centric Networking
+    year: 2017
+    link: http://DOI.acm.org/10.1145/3125719.3125722
+- year: 2015
+  entries:
+  - key: Fan:2015:MSD:2832099.2832100
+    title: Managing Scientific Data with Named Data Networking
+    authors:
+    - Chengyu Fan
+    - Susmit Shannigrahi
+    - Steve DiBenedetto
+    - Catherine Olschanowsky
+    - Christos Papadopoulos
+    - Harvey Newman
+    venue: Proceedings of the Fifth International Workshop on Network-Aware Data Management
+    year: 2015
+    link: http://doi.acm.org/10.1145/2832099.2832100
+  - key: 1742-6596-664-5-052033
+    title: Named Data Networking in Climate Research and HEP Applications
+    authors:
+    - Susmit Shannigrahi
+    - Christos Papadopoulos
+    - Edmund Yeh
+    - Harvey Newman
+    - Artur Jerzy Barczyk
+    - Ran Liu
+    - Alex Sim
+    - Azher Mughal
+    - Inder Monga
+    - Jean-Roch Vlimant
+    - John Wu
+    venue: 'Journal of Physics: Conference Series'
+    year: 2015
+    link: http://stacks.iop.org/1742-6596/664/i=5/a=052033
+- year: 2014
+  entries:
+  - key: '7028640'
+    title: Supporting climate research using named data networking
+    authors:
+    - Catherine Olschanowsky
+    - Susmit Shannigrahi
+    - Christos Papadopoulos
+    venue: 2014 IEEE 20th International Workshop on Local Metropolitan Area Networks (LANMAN)
+    year: 2014
+    link: ''
+- year: 2010
+  entries:
+  - key: 10.1007/978-3-642-11322-2
+    title: Fast BGP Convergence Following Link/Router Failure
+    authors:
+    - Swapan Kumar Ray
+    - Susmit Shannigrahi
+    venue: Distributed Computing and Networking
+    year: 2010
+    link: ''
+- year: null
+  entries:
+  - key: NDISE
+    title: NDN-based Data Distribution for Large-Scale Data-Intensive Science
+    authors:
+    - E. Yeh
+    - H. Newman
+    - L. Zhang
+    - J. Cong
+    - S. Shannigrahi
+    - Y. Wu
+    - C. Iordache
+    - V. Mutlu
+    - S. Timilsina
+    - S. Song
+    - M. Lo
+    - R. Liu
+    - C. Fan
+    - R. Sirvinskas
+    - J. Balcas
+    - Y. Liu
+    - D. Pesavento
+    - L. Benmohamed
+    - J. Shi
+    venue: IEEE
+    year: null
+    link: ''
+  - key: VNC
+    title: A Name-Based Secure Communications Architecture for Vehicular Networks
+    authors:
+    - Christos Papadopoulos
+    - Alexander Afanasyev
+    - Susmit Shannigrahi
+    venue: ''
+    year: null
+    link: ''

@@ -1,22 +1,18 @@
 ---
 title: "Contact Us"
-description: "Get in touch with TREN — Tennessee Research and Education Network."
+description: "Get in touch with the NGIN Lab at Tennessee Technological University."
 ---
 
-## Bi-Weekly Community Call
+## Get in Touch
 
-We host an open bi-weekly call to discuss TREN and networking efforts across Tennessee. All interested institutions, researchers, and partners are welcome.
+The NGIN Lab is based in the Computer Science department at Tennessee Technological University. For research inquiries, collaboration proposals, or general questions, reach out by email:
 
-**[Join the TREN mailing list](https://lists.tntech.edu/postorius/lists/tren.lists.tntech.edu/)**
+**[sshannigrahi@tntech.edu](mailto:sshannigrahi@tntech.edu)**
 
-## Get Involved
+## Prospective Students
 
-Whether you represent a university, K-12 school system, public health agency, or state government office, TREN wants to hear from you.
+We are recruiting PhD students. If designing the next-generation Internet, low-latency AR/VR, 5G mobile networks, or smart vehicular networks interests you, [get in touch](mailto:sshannigrahi@tntech.edu).
 
-## Principal Investigators
+## Team
 
-Contact information for the leadership team is available on the [Team](/team/) page.
-
-## NSF Acknowledgment
-
-This project is supported by the National Science Foundation under Award #2430341.
+Contact information for individual lab members is available on the [Team](/team/) page.

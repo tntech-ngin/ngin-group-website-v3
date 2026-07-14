@@ -1,35 +1,34 @@
-baseURL: "https://trenconnectsus.github.io/tren/"
-title: "TREN — Tennessee Research & Education Network"
+baseURL: "https://tntech-ngin.net"
+title: "NGIN Lab"
 defaultContentLanguage: "en"
 paginate: 10
 buildFuture: true
 
 params:
-  description: "Building the statewide 100G research backbone for Tennessee's institutions of higher education."
-  nsf_award: "NSF CC* Award #2430341"
-  contact_email: "info@trenconnects.us"
+  description: "Next Generation Internet Research Lab at Tennessee Technological University. Research in AI-embedded distributed systems, exascale network measurement, low-latency AR/VR, and intelligent edge IoT."
+  contact_email: "sshannigrahi@tntech.edu"
 
   nav:
-    - name: "About"
-      url: "/about/"
-    - name: "Events"
-      url: "/events/"
+    - name: "Home"
+      url: "/"
+    - name: "Research"
+      url: "/project/"
+    - name: "Software"
+      url: "/software/"
+    - name: "Publications"
+      url: "/publication/"
+    - name: "Honors"
+      url: "/honors/"
+    - name: "Teaching"
+      url: "/teaching/"
     - name: "News"
       url: "/news/"
+    - name: "Talks"
+      url: "/talks/"
     - name: "Team"
       url: "/team/"
     - name: "Contact"
       url: "/contact/"
-
-  institutions:
-    - name: "Tennessee State University"
-      abbr: "TSU"
-    - name: "Middle Tennessee State University"
-      abbr: "MTSU"
-    - name: "Tennessee Technological University"
-      abbr: "TTU"
-    - name: "UT Chattanooga"
-      abbr: "UTC"
 
 markup:
   goldmark:

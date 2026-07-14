@@ -1,14 +1,17 @@
 # Homepage stats bar
-# Edit these numbers as TREN grows — they appear automatically on the homepage
+# Edit these numbers as the lab grows — they appear automatically on the homepage
+
+- number: "10"
+  label: "Active research projects"
+
+- number: "7"
+  label: "Current team members · 18 alumni"
 
 - number: "4"
-  label: "Anchor universities"
+  label: "Core research areas"
 
-- number: "83"
-  label: "Institutions to serve"
+- number: "$4.1M"
+  label: "Total research funding"
 
-- number: "100G"
-  label: "Target backbone speed"
-
-- number: "2026"
-  label: "Operational target"
+- number: "$4.6M"
+  label: "Teaching & service funding"

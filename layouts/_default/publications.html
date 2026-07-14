@@ -1,0 +1,32 @@
+{{ define "main" }}
+<div class="page-wrap">
+  <div class="page-inner" style="max-width:var(--max-width)">
+    <header class="page-header">
+      <div class="eyebrow">Publications</div>
+      <h1>{{ .Title }}</h1>
+    </header>
+
+    {{ if .Content }}<div class="page-content" style="margin-bottom:2rem">{{ .Content }}</div>{{ end }}
+
+    {{ range .Site.Data.publications }}
+    <section class="pub-year-group">
+      <h2 class="pub-year">{{ if .year }}{{ .year }}{{ else }}Undated{{ end }}</h2>
+      <ul class="pub-list">
+        {{ range .entries }}
+        <li class="pub-item">
+          <p class="pub-title">{{ .title }}</p>
+          {{ if .authors }}
+          <p class="pub-authors">{{ replace (delimit .authors ", ") "Susmit Shannigrahi" "<strong>Susmit Shannigrahi</strong>" | safeHTML }}</p>
+          {{ end }}
+          <p class="pub-meta">
+            {{ if .venue }}<span class="pub-venue">{{ .venue }}</span>{{ end }}
+            {{ if .link }}<a href="{{ .link }}" target="_blank" rel="noopener" class="pub-link">View →</a>{{ end }}
+          </p>
+        </li>
+        {{ end }}
+      </ul>
+    </section>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

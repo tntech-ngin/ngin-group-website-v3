@@ -2,15 +2,16 @@
 
 <!-- ── Hero ──────────────────────────────────────────────────────────────── -->
 <section class="hero">
-  <img src="{{ "images/hero.jpg" | relURL }}" alt="Tennessee Research and Education Network" class="hero-img">
+  <img src="{{ "images/hero.jpg" | relURL }}" alt="NGIN Lab" class="hero-img">
   <div class="hero-overlay"></div>
   <div class="hero-content">
-    <div class="hero-kicker">{{ .Site.Params.nsf_award }}</div>
-    <h1 class="hero-h1">Connecting Tennessee's higher education institutions<br><em>to each other and to the world</em></h1>
-    <p class="hero-p">Tennessee has 83 institutions of higher education and no statewide research network. TREN changes that — building the 100G backbone that connects every campus to national research infrastructure.</p>
+    <h4 class="hero-kicker">Tennessee Technological University</h4>
+    <h1 class="hero-label">NGIN: Next Generation Internet Research Lab</h1>
+    <h3 class="hero-h1">Building the next generation<br><em>of the Internet</em></h3>
+    <p class="hero-p">The NGIN Lab builds AI-embedded intelligent distributed systems, measures the Internet at exascale, and pushes low-latency AR/VR, video distribution, and intelligent edge IoT to their limits.</p>
     <div class="hero-actions">
-      <a href="{{ "/about/" | absURL }}" class="btn-primary">About TREN</a>
-      <a href="{{ "/events/" | absURL }}" class="btn-ghost">View events</a>
+      <a href="{{ "/about/" | absURL }}" class="btn-primary">About NGIN Lab</a>
+      <a href="{{ "/project/" | absURL }}" class="btn-ghost">View research</a>
     </div>
   </div>
 </section>
@@ -25,7 +26,48 @@
   {{ end }}
 </div>
 
-{{ partial "network-map.html" . }}
+<!-- ── PI ─────────────────────────────────────────────────────────────────── -->
+{{ $pi := index (where .Site.RegularPages "Params.pi" true) 0 }}
+{{ with $pi }}
+<section class="pi-block">
+  <div class="pi-block-inner">
+    <a href="{{ .RelPermalink }}" class="pi-photo">
+      {{ if .Params.image }}
+      <img src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Params.name }}">
+      {{ else }}
+      <div class="pi-photo--placeholder">?</div>
+      {{ end }}
+    </a>
+    <div class="pi-info">
+      <a href="{{ .RelPermalink }}" class="pi-name">{{ .Params.name }}</a>
+      <div class="pi-title">{{ .Params.title }} · {{ .Params.institution }}</div>
+      {{ if .Params.tagline }}<p class="pi-tagline">{{ .Params.tagline }}</p>{{ end }}
+      <div class="pi-contact-grid">
+        <div class="pi-contact-col">
+          <div class="pi-contact-label">Physical</div>
+          {{ with .Params.office }}<div class="pi-contact-item">{{ partial "icon.html" "location" }}{{ . }}</div>{{ end }}
+          {{ with .Params.phone }}<div class="pi-contact-item">{{ partial "icon.html" "phone" }}{{ . }}</div>{{ end }}
+        </div>
+        <div class="pi-contact-col">
+          <div class="pi-contact-label">Online</div>
+          {{ with .Params.email }}<a href="mailto:{{ . }}" class="pi-contact-item pi-contact-link">{{ partial "icon.html" "email" }}{{ . }}</a>{{ end }}
+          {{ with .Params.linkedin }}<a href="{{ . }}" target="_blank" rel="noopener" class="pi-contact-item pi-contact-link">{{ partial "icon.html" "linkedin" }}LinkedIn</a>{{ end }}
+          {{ with .Params.website }}<a href="{{ . }}" target="_blank" rel="noopener" class="pi-contact-item pi-contact-link">{{ partial "icon.html" "scholar" }}Google Scholar</a>{{ end }}
+          {{ with .Params.cv_url }}<a href="{{ . | relURL }}" target="_blank" rel="noopener" class="pi-contact-item pi-contact-link">{{ partial "icon.html" "cv" }}Download CV</a>{{ end }}
+        </div>
+      </div>
+      <div class="pi-more">
+        <a href="{{ .RelPermalink }}" class="pi-more-link">Read full bio →</a>
+      </div>
+      {{ with .Params.email }}
+      <div class="pi-highlight">
+        <p>I am recruiting PhD students. If you're interested, get in touch with a brief CV, and which research topics/areas you are interested in.</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
 
 <!-- ── News ───────────────────────────────────────────────────────────────── -->
 <section class="home-section">
@@ -37,27 +79,56 @@
       </div>
       <a href="{{ "/news/" | relURL }}" class="see-all">See all →</a>
     </div>
-    <div class="news-grid">
-      {{ range first 3 (where .Site.RegularPages "Section" "news").ByDate.Reverse }}
-      <a href="{{ .RelPermalink }}" class="news-card">
-        {{ if .Params.image }}
-        <img src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Params.image_alt | default .Title }}" class="news-card-img">
-        {{ else }}
-        <img src="https://picsum.photos/seed/{{ .File.BaseFileName }}/800/500" alt="{{ .Title }}" class="news-card-img">
-        {{ end }}
-        <div class="news-card-body">
-          {{ if .Params.tag }}<span class="tag tag-{{ .Params.tag }}">{{ .Params.tag | humanize }}</span>{{ end }}
-          <h3>{{ .Title }}</h3>
-          <p class="news-date">{{ .Date.Format "January 2006" }}</p>
-        </div>
+    <div class="news-line-list">
+      {{ $news := where .Site.RegularPages "Section" "news" }}
+      {{ $talks := where .Site.RegularPages "Section" "talks" }}
+      {{ range first 5 ($news | union $talks).ByDate.Reverse }}
+      <a href="{{ .RelPermalink }}" class="news-line">
+        {{ if .Params.tag }}<span class="tag tag-{{ .Params.tag }}">{{ .Params.tag | humanize }}</span>{{ end }}
+        <span class="news-line-title">{{ .Title }}</span>
+        <span class="news-line-date">{{ .Date.Format "Jan 2006" }}</span>
+        <span class="news-line-more">Read more →</span>
       </a>
       {{ end }}
     </div>
   </div>
 </section>
 
-<!-- ── Events ─────────────────────────────────────────────────────────────── -->
+<!-- ── Selected Current Projects ──────────────────────────────────────────── -->
+{{ $featured := where .Site.RegularPages "Params.featured" true }}
+{{ if $featured }}
 <section class="home-section home-section--alt">
+  <div class="home-section-inner">
+    <div class="section-header">
+      <div>
+        <div class="eyebrow">Research</div>
+        <h2>Selected current projects</h2>
+      </div>
+      <a href="{{ "/project/" | relURL }}" class="see-all">See all our projects →</a>
+    </div>
+    <div class="news-grid">
+      {{ range first 3 $featured }}
+      {{ $href := .RelPermalink }}
+      {{ $external := false }}
+      {{ with .Params.external_link }}{{ $href = . }}{{ $external = true }}{{ end }}
+      <a href="{{ $href }}" class="news-card"{{ if $external }} target="_blank" rel="noopener"{{ end }}>
+        <img src="https://picsum.photos/seed/{{ .File.ContentBaseName }}/800/500" alt="{{ .Title }}" class="news-card-img">
+        <div class="news-card-body">
+          {{ with .Params.funder }}<span class="tag tag-publication">{{ . }}</span>{{ end }}
+          <h3>{{ .Title }}</h3>
+          {{ if .Params.summary }}<p class="news-date">{{ .Params.summary }}</p>{{ end }}
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<!-- ── Events ─────────────────────────────────────────────────────────────── -->
+{{ $events := where .Site.RegularPages "Section" "events" }}
+{{ if $events }}
+<section class="home-section">
   <div class="home-section-inner">
     <div class="section-header">
       <div>
@@ -67,7 +138,7 @@
       <a href="{{ "/events/" | relURL }}" class="see-all">See all →</a>
     </div>
     <div class="events-list">
-      {{ range first 4 (where .Site.RegularPages "Section" "events").ByDate.Reverse }}
+      {{ range first 4 $events.ByDate.Reverse }}
       <a href="{{ .RelPermalink }}" class="event-row">
         {{ if .Params.image }}
         <img src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Title }}" class="event-row-thumb">
@@ -87,21 +158,52 @@
     </div>
   </div>
 </section>
+{{ end }}
 
 <!-- ── Partners ───────────────────────────────────────────────────────────── -->
 <section class="partners-section">
   <div class="partners-inner">
-    <div class="eyebrow" style="text-align:center;margin-bottom:0.5rem">Network</div>
-    <h2 class="partners-title">Partners &amp; collaborators</h2>
-    <p class="partners-sub">TREN connects Tennessee's research universities to national infrastructure through partnerships with leading research organizations.</p>
+    <div class="eyebrow" style="text-align:center;margin-bottom:0.5rem">Collaboration</div>
+    <h2 class="partners-title">Funding agencies &amp; collaborators</h2>
+    <p class="partners-sub">NGIN Lab's research is supported by federal funding and carried out in collaboration with partner institutions across the country.</p>
+
+    {{ if .Site.Data.partners.funders }}
+    <div class="partners-group-label">Funding Agencies</div>
     <div class="partners-row">
-      {{ range .Site.Data.partners.partners }}
+      {{ range .Site.Data.partners.funders }}
+      {{ if .url }}
       <a href="{{ .url }}" class="partner-card" target="_blank" rel="noopener">
         {{ if .logo }}<img src="{{ (printf "images/partners/%s" .logo) | relURL }}" alt="{{ .name }}">{{ else }}<span class="partner-placeholder">{{ .abbr }}</span>{{ end }}
         <span class="partner-name">{{ .name }}</span>
       </a>
+      {{ else }}
+      <div class="partner-card">
+        {{ if .logo }}<img src="{{ (printf "images/partners/%s" .logo) | relURL }}" alt="{{ .name }}">{{ else }}<span class="partner-placeholder">{{ .abbr }}</span>{{ end }}
+        <span class="partner-name">{{ .name }}</span>
+      </div>
+      {{ end }}
       {{ end }}
     </div>
+    {{ end }}
+
+    {{ if .Site.Data.partners.collaborators }}
+    <div class="partners-group-label">Collaborators</div>
+    <div class="partners-row">
+      {{ range .Site.Data.partners.collaborators }}
+      {{ if .url }}
+      <a href="{{ .url }}" class="partner-card" target="_blank" rel="noopener">
+        {{ if .logo }}<img src="{{ (printf "images/partners/%s" .logo) | relURL }}" alt="{{ .name }}">{{ else }}<span class="partner-placeholder">{{ .abbr }}</span>{{ end }}
+        <span class="partner-name">{{ .name }}</span>
+      </a>
+      {{ else }}
+      <div class="partner-card">
+        {{ if .logo }}<img src="{{ (printf "images/partners/%s" .logo) | relURL }}" alt="{{ .name }}">{{ else }}<span class="partner-placeholder">{{ .abbr }}</span>{{ end }}
+        <span class="partner-name">{{ .name }}</span>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
   </div>
 </section>
 

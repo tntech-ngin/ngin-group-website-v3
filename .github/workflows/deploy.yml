@@ -16,13 +16,11 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  HUGO_VERSION: "0.164.0"
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: "0.124.1"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -31,11 +29,25 @@ jobs:
         run: |
           wget -O hugo.tar.gz "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
           tar -xzf hugo.tar.gz
-          mv hugo /usr/local/bin/hugo
+          sudo mv hugo /usr/local/bin/hugo
           hugo version
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate publications from bibliography
+        run: |
+          python3 -m venv scripts/.venv
+          scripts/.venv/bin/pip install --quiet -r scripts/requirements.txt
+          scripts/.venv/bin/python scripts/build_publications.py
+
       - name: Build
-        run: hugo --minify
+        run: hugo --gc --minify
+
+      - name: Add CNAME for custom domain
+        run: echo "tntech-ngin.net" > public/CNAME
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

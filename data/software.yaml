@@ -1,0 +1,47 @@
+# Software developed by the NGIN Lab
+# url: repo or project site link
+
+- name: "Hydra"
+  funder: "NSF funded"
+  url: "https://github.com/tntech-ngin/ndn-hydra/"
+  description: "A federated data repository for big science."
+
+- name: "hipFT"
+  funder: "NSF funded"
+  url: "https://hipft.net"
+  description: "Error-free file transfer for large scientific data."
+
+- name: "NDN Data Collection Framework"
+  funder: "NSF funded"
+  url: "https://www.tntech-ngin.net/datasets"
+  description: "NDN data collection toolset."
+
+- name: "N-DISE"
+  funder: "NSF funded"
+  url: "https://github.com/neu-yehlab/n-dise"
+  description: "NDN for Data Intensive Science Experiments."
+
+- name: "NDN-SCI"
+  funder: "NSF funded"
+  url: "https://github.com/named-data/ndn-atmos"
+  description: "An NDN-based scientific data management framework."
+
+- name: "IPoC"
+  funder: "CableLabs"
+  url: "https://github.com/named-data/IPoC"
+  description: "An IP-over-ICN protocol for 5G mobile networks."
+
+- name: "NFD"
+  funder: "NSF funded"
+  url: "https://github.com/named-data/NFD"
+  description: "The Named Data Networking Forwarding Daemon."
+
+- name: "ndn-cxx"
+  funder: "NSF funded"
+  url: "https://github.com/named-data/ndn-cxx"
+  description: "A C++ library implementing the Named Data Networking primitives."
+
+- name: "SANDIE"
+  funder: "NSF funded"
+  url: "https://github.com/cmscaltech/sandie-ndn"
+  description: "SDN-assisted NDN for data-intensive science."

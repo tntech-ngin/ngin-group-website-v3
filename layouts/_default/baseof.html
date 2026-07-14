@@ -12,17 +12,11 @@
 
   <nav class="nav">
     <div class="nav-inner">
-      <a href="{{ "/" | relURL }}" class="nav-logo">
-        <img src="{{ "images/tren-logo.png" | relURL }}" alt="TREN" class="nav-logo-img"
-             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="nav-logo-text" style="display:none">
-          <span class="logo-mark">TREN</span>
-          <span class="logo-sub">Tennessee Research &amp; Education Network</span>
-        </span>
-      </a>
       <div class="nav-links">
         {{ range .Site.Params.nav }}
+          {{ if ne .name "Contact" }}
           <a href="{{ .url | relURL }}"{{ if eq $.RelPermalink .url }} class="active"{{ end }}>{{ .name }}</a>
+          {{ end }}
         {{ end }}
         <a href="{{ "/contact/" | relURL }}" class="nav-cta">Contact</a>
       </div>
@@ -36,8 +30,8 @@
   <footer class="footer">
     <div class="footer-inner">
       <div class="footer-left">
-        <p class="footer-title">TREN — Tennessee Research &amp; Education Network</p>
-        <p>{{ .Site.Params.nsf_award }} · Supported by the National Science Foundation</p>
+        <p class="footer-title">NGIN Lab — Tennessee Technological University</p>
+        <p><a href="mailto:{{ .Site.Params.contact_email }}">{{ .Site.Params.contact_email }}</a></p>
       </div>
       <div class="footer-links">
         {{ range .Site.Params.nav }}

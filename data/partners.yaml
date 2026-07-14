@@ -1,74 +1,75 @@
-# All partners in one flat list — edit this file to add/remove/reorder
-# logo: filename in static/images/partners/
-# url: partner website
+# Funding agencies and collaborators, shown as two separate clusters on the homepage
+# logo: filename in static/images/partners/ (omit for a text-only abbr badge)
+# url: partner website (omit if unknown — renders as a non-clickable badge)
 
-partners:
+funders:
   - name: "National Science Foundation"
     abbr: "NSF"
     logo: "nsf-logo.svg"
     url: "https://www.nsf.gov"
 
-  - name: "Internet2"
-    abbr: "Internet2"
-    logo: "internet2-logo.svg"
-    url: "https://internet2.edu"
+  - name: "Environmental Protection Agency"
+    abbr: "EPA"
+    url: "https://www.epa.gov"
 
-  - name: "Oak Ridge National Laboratory"
-    abbr: "ORNL"
-    logo: "ornl-logo.svg"
-    url: "https://www.ornl.gov"
+  - name: "USGF"
+    abbr: "USGF"
+    url: ""
 
-  - name: "Southern Crossroads (SOX)"
-    abbr: "SOX"
-    logo: "sox-logo.svg"
-    url: "https://www.sox.net"
+  - name: "Cisco"
+    abbr: "Cisco"
+    url: "https://www.cisco.com"
 
-  - name: "University of Tennessee, Knoxville"
-    abbr: "UTK"
-    logo: "utk-logo.svg"
-    url: "https://www.utk.edu"
+  - name: "Tennessee Board of Regents"
+    abbr: "TBR"
+    url: "https://www.tbr.edu"
 
-  - name: "Vanderbilt University"
-    abbr: "VU"
-    logo: "vanderbilt-logo.svg"
-    url: "https://www.vanderbilt.edu"
+  - name: "Google"
+    abbr: "Google"
+    url: "https://cloud.google.com"
 
-  - name: "Tennessee State University"
-    abbr: "TSU"
-    logo: "tsu-logo.svg"
-    url: "https://www.tnstate.edu"
+  - name: "Battelle Education"
+    abbr: "Battelle"
+    url: ""
 
+collaborators:
   - name: "Tennessee Technological University"
     abbr: "TTU"
     logo: "ttu-logo.svg"
     url: "https://www.tntech.edu"
 
-  - name: "Middle Tennessee State University"
-    abbr: "MTSU"
-    logo: "mtsu-logo.svg"
-    url: "https://www.mtsu.edu"
+  - name: "Clemson University"
+    abbr: "Clemson"
+    url: "https://www.clemson.edu"
 
-  - name: "UT Chattanooga"
-    abbr: "UTC"
-    logo: "utc-logo.svg"
-    url: "https://www.utc.edu"
+  - name: "University of Massachusetts Amherst"
+    abbr: "UMass Amherst"
+    url: "https://www.umass.edu"
 
-  - name: "University of Memphis"
-    abbr: "UofM"
-    logo: "memphis-logo.svg"
-    url: "https://www.memphis.edu"
+  - name: "UCLA"
+    abbr: "UCLA"
+    url: "https://www.ucla.edu"
 
-  - name: "East Tennessee State University"
-    abbr: "ETSU"
-    logo: "etsu-logo.svg"
-    url: "https://www.etsu.edu"
+  - name: "Florida International University"
+    abbr: "FIU"
+    url: "https://www.fiu.edu"
 
-  - name: "St. Jude Children's Research Hospital"
-    abbr: "St. Jude"
-    logo: "stjude-logo.svg"
-    url: "https://www.stjude.org"
+  - name: "Northeastern University"
+    abbr: "Northeastern"
+    url: "https://www.northeastern.edu"
 
-  - name: "UT Health Sciences Center"
-    abbr: "UTHSC"
-    logo: "uthsc-logo.svg"
-    url: "https://www.uthsc.edu"
+  - name: "Caltech"
+    abbr: "Caltech"
+    url: "https://www.caltech.edu"
+
+  - name: "Colorado State University"
+    abbr: "CSU"
+    url: "https://www.colostate.edu"
+
+  - name: "CERN"
+    abbr: "CERN"
+    url: "https://home.cern"
+
+  - name: "Lawrence Berkeley National Laboratory"
+    abbr: "LBNL"
+    url: "https://www.lbl.gov"

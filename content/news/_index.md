@@ -1,4 +1,4 @@
 ---
 title: "News"
-description: "TREN milestones, workshop recaps, and announcements."
+description: "NGIN Lab publications, grants, and announcements."
 ---

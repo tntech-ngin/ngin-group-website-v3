@@ -1,0 +1,48 @@
+{{ define "main" }}
+<div class="page-wrap">
+  <div class="page-inner" style="max-width:var(--max-width)">
+    <header class="page-header">
+      <div class="eyebrow">{{ .Section | humanize }}</div>
+      <h1>{{ .Title }}</h1>
+    </header>
+
+    <div class="project-grid">
+      {{ range .Pages.ByDate.Reverse }}
+      {{ $href := .RelPermalink }}
+      {{ $external := false }}
+      {{ with .Params.external_link }}{{ $href = . }}{{ $external = true }}{{ end }}
+      <a href="{{ $href }}" class="project-card"{{ if $external }} target="_blank" rel="noopener"{{ end }}>
+        <div class="project-card-img">
+          <img src="https://picsum.photos/seed/{{ .File.ContentBaseName }}/900/450" alt="{{ .Title }}">
+        </div>
+        <div class="project-card-body">
+          <h2>{{ .Title }}</h2>
+          {{ if .Params.summary }}<p class="project-summary">{{ .Params.summary }}</p>{{ end }}
+          <div class="project-stats">
+            {{ with .Params.funder }}
+            <div class="project-stat">
+              <div class="project-stat-label">Funder</div>
+              <div class="project-stat-value">{{ . }}</div>
+            </div>
+            {{ end }}
+            {{ with .Params.amount }}
+            <div class="project-stat">
+              <div class="project-stat-label">Amount</div>
+              <div class="project-stat-value">{{ . }}</div>
+            </div>
+            {{ end }}
+            {{ if .Params.collaborators }}
+            <div class="project-stat">
+              <div class="project-stat-label">Collaborators</div>
+              <div class="project-stat-value">{{ delimit .Params.collaborators ", " }}</div>
+            </div>
+            {{ end }}
+          </div>
+          <span class="project-card-link">{{ if $external }}Visit project site →{{ else }}Read more →{{ end }}</span>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

@@ -1,29 +1,21 @@
 ---
-title: "About TREN"
-description: "The Tennessee Research and Education Network — building the statewide 100G research backbone Tennessee has never had."
+title: "About NGIN Lab"
+description: "The Next Generation Internet Research Lab at Tennessee Technological University — researching AI-embedded distributed systems, exascale network measurement, and next-generation immersive and edge networking."
 ---
 
-## What is TREN?
+## What is NGIN Lab?
 
-The Tennessee Research and Education Network (TREN) is an initiative to establish a statewide 100G research backbone. Despite Tennessee's 83 institutions of higher education — including six research universities and a national lab — the state lacks a dedicated research and education network.
+The **Next Generation Internet (NGIN) Lab** at Tennessee Technological University builds AI-embedded intelligent distributed systems, measures the Internet at exascale, and pushes low-latency AR/VR, video distribution, and intelligent edge IoT to their limits.
 
-Funded by the National Science Foundation and led by four under-resourced public universities, TREN is developing a comprehensive strategy and regional cyberinfrastructure plan that will permanently change how Tennessee's institutions connect to the national research infrastructure.
+## Research Areas
 
-## Our Mission
+| Area | Description |
+|------|-------------|
+| **AI-Embedded Distributed Systems** | Intelligent network management, traffic engineering, and AI/ML-driven anomaly detection for large-scale distributed systems. |
+| **Exascale Network Measurement** | Measuring and characterizing Internet behavior — data integrity, transmission errors, and network performance at the largest scales. |
+| **Intelligent Edge IoT** | Low-cost sensing and edge ML for real-time environmental and infrastructure monitoring. |
+| **Low-Latency AR/VR & Video Distribution** | Edge-cloud architectures for immersive mixed reality and scalable, secure video streaming. |
 
-TREN will connect Tennessee's higher education institutions with each other and with national research infrastructure — enhancing research capacity, fostering collaboration, and supporting education, healthcare, government, and non-profits across the state.
+## Join the Lab
 
-## Anchor Institutions
-
-TREN is led by four under-resourced public universities spanning Tennessee:
-
-- **Tennessee Technological University** — Cookeville, TN
-- **Middle Tennessee State University** — Murfreesboro, TN
-- **Tennessee State University** — Nashville, TN
-- **University of Tennessee at Chattanooga** — Chattanooga, TN
-
-## NSF Funding
-
-This project is supported by the National Science Foundation under [Award #2430341](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2430341&HistoricalAwards=false).
-
-Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+We are recruiting PhD students. If designing intelligent distributed systems, exascale network measurement, low-latency AR/VR, or edge IoT interests you, [get in touch](mailto:sshannigrahi@tntech.edu).
