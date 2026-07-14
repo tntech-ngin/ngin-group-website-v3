@@ -64,7 +64,7 @@ body {
 /* ─── Hero ───────────────────────────────────────────────── */
 .hero {
   position: relative;
-  height: 520px;
+  min-height: 520px;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -362,7 +362,7 @@ body {
   .nav-toggle-checkbox:checked ~ .nav-links { display: flex; }
   .nav-links a { padding: 10px 0; width: 100%; }
   .nav-links .nav-cta { margin-top: 8px; text-align: center; }
-  .hero { height: 420px; }
+  .hero { min-height: 420px; padding: 2rem 0; }
   .hero-h1 { font-size: 28px; }
   .stats-bar { grid-template-columns: repeat(2, 1fr); }
   .news-grid { grid-template-columns: 1fr; }
