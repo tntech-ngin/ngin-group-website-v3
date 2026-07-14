@@ -278,6 +278,11 @@ body {
 .list-summary { font-size: 12px; color: var(--text-muted); margin-top: 4px; line-height: 1.5; }
 
 /* ─── Project cards ──────────────────────────────────────── */
+.project-section { margin-bottom: 2.5rem; }
+.project-section-title {
+  font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--orange-dark); border-bottom: 1px solid var(--border); padding-bottom: 0.75rem;
+}
 .project-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:24px; margin-top:1.5rem; }
 .project-card {
   display:block; border:0.5px solid var(--border); border-radius:var(--radius);

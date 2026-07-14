@@ -1,8 +1,7 @@
 # Homepage stats bar
 # Edit these numbers as the lab grows — they appear automatically on the homepage
-
-- number: "10"
-  label: "Active research projects"
+# "Active research projects" is not listed here — it's computed automatically
+# from content/project/*/index.md front matter (status: "active")
 
 - number: "7"
   label: "Current team members · 18 alumni"

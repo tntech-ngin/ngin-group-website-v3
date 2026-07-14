@@ -8,6 +8,7 @@ tags:
   - "LHC"
   - "NSF"
 summary: "Deploying the first prototype production-ready NDN-based petascale data distribution system for high-energy physics."
+status: "completed"
 external_link: "https://ndise.net"
 funder: "NSF CC* #2019012"
 amount: "$1,025,000"

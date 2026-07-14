@@ -6,6 +6,7 @@ tags:
   - "Water Quality"
   - "Edge Computing"
 summary: "Developing a low-cost, camera-based sensor for measuring water turbidity, building on the lab's edge-ML water sensing work."
+status: "completed"
 funder: "USGF"
 amount: "$34,954"
 collaborators: []

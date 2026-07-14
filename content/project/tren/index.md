@@ -8,6 +8,7 @@ tags:
   - "NSF"
   - "Tennessee"
 summary: "Building the foundational cyberinfrastructure to connect Tennessee research universities via a dedicated, high-speed network."
+status: "active"
 funder: "NSF CC* #2430341"
 amount: "$200,000"
 featured: true

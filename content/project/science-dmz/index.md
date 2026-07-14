@@ -7,6 +7,7 @@ tags:
   - "Internet2"
   - "NSF"
 summary: "Built Tennessee Tech's Science DMZ and a dedicated 10Gbps connection to Internet2 for data-intensive research."
+status: "completed"
 funder: "NSF CC* #2018373"
 amount: "$292,322"
 collaborators: []

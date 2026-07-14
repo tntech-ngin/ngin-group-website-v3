@@ -7,6 +7,7 @@ tags:
   - "Network Architecture"
   - "NSF"
 summary: "A Future Internet Architecture that shifts the fundamental network primitive from where to what."
+status: "completed"
 external_link: "https://named-data.net"
 collaborators:
   - "CERN"

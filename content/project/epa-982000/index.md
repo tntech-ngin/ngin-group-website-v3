@@ -6,6 +6,7 @@ tags:
   - "Water Quality"
   - "Environmental Monitoring"
 summary: "Developing innovative solutions for improving water quality and strengthening local economies across the Gulf of America watershed."
+status: "active"
 funder: "EPA #982000"
 amount: "$993,953"
 collaborators: []

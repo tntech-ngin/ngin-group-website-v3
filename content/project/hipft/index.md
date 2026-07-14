@@ -7,6 +7,7 @@ tags:
   - "Network Protocols"
   - "NSF"
 summary: "End-to-end integrity verification for large-scale scientific data transfers over Science DMZ networks."
+status: "completed"
 external_link: "https://hipft.net"
 funder: "NSF CC* #2019163"
 amount: "$470,431"

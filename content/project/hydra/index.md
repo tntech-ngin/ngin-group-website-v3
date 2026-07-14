@@ -8,6 +8,7 @@ tags:
   - "Genomics"
   - "NSF"
 summary: "A framework for building a loose federation of scientific data repositories over Named Data Networking."
+status: "active"
 external_link: "http://www.hydra-repo.io"
 funder: "NSF CC* #2126148"
 amount: "$997,221"

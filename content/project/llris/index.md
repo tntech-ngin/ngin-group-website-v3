@@ -7,6 +7,7 @@ tags:
   - "Low Latency"
   - "NSF"
 summary: "Exploring edge-cloud hybrid architectures to meet the 10–50 ms latency budget required for interactive AR/VR."
+status: "completed"
 funder: "NSF CCRI #2016714"
 amount: "$132,200"
 collaborators: []

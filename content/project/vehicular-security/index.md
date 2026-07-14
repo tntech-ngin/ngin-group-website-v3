@@ -8,6 +8,7 @@ tags:
   - "Cybersecurity"
   - "IoT"
 summary: "Securing in-vehicle CAN bus communication and vehicle-to-everything (V2X) networking using NDN's content-centric model."
+status: "active"
 collaborators:
   - "Colorado State University"
 ---

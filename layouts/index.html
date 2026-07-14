@@ -17,7 +17,12 @@
 </section>
 
 <!-- ── Stats ──────────────────────────────────────────────────────────────── -->
+{{ $activeProjects := where (where .Site.RegularPages "Section" "project") "Params.status" "active" }}
 <div class="stats-bar">
+  <div class="stat">
+    <div class="stat-n">{{ len $activeProjects }}</div>
+    <div class="stat-l">Active research projects</div>
+  </div>
   {{ range .Site.Data.stats }}
   <div class="stat">
     <div class="stat-n">{{ .number }}</div>
