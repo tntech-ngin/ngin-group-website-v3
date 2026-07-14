@@ -12,6 +12,10 @@
 
   <nav class="nav">
     <div class="nav-inner">
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox">
+      <label for="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </label>
       <div class="nav-links">
         {{ range .Site.Params.nav }}
           {{ if ne .name "Contact" }}

@@ -57,6 +57,9 @@ body {
   border-radius: 6px; padding: 6px 14px;
 }
 .nav-cta:hover { background: var(--navy) !important; color: #fff !important; }
+.nav-toggle-checkbox { display: none; }
+.nav-toggle { display: none; flex-direction: column; gap: 5px; padding: 8px; cursor: pointer; }
+.nav-toggle span { width: 22px; height: 2px; background: #fff; display: block; }
 
 /* ─── Hero ───────────────────────────────────────────────── */
 .hero {
@@ -348,7 +351,17 @@ body {
 
 /* ─── Responsive ─────────────────────────────────────────── */
 @media (max-width: 768px) {
-  .nav-links { display: none; }
+  .nav-toggle { display: flex; }
+  .nav-links {
+    display: none;
+    position: absolute; top: 60px; left: 0; right: 0;
+    flex-direction: column; align-items: flex-start; gap: 0;
+    background: var(--navy); border-bottom: 2px solid var(--orange);
+    padding: 0.5rem 2rem 1rem;
+  }
+  .nav-toggle-checkbox:checked ~ .nav-links { display: flex; }
+  .nav-links a { padding: 10px 0; width: 100%; }
+  .nav-links .nav-cta { margin-top: 8px; text-align: center; }
   .hero { height: 420px; }
   .hero-h1 { font-size: 28px; }
   .stats-bar { grid-template-columns: repeat(2, 1fr); }
