@@ -1,5 +1,5 @@
 ---
-title: "Lightning Talk"
+title: "Lightning Talk at the 2026 CRA Summit"
 date: 2026-07-23
 tag: "invited-talk"
 venue: "2026 CRA Summit"
