@@ -25,6 +25,8 @@ params:
       url: "/news/"
     - name: "Talks"
       url: "/talks/"
+    - name: "Service"
+      url: "/service/"
     - name: "Team"
       url: "/team/"
     - name: "Contact"
