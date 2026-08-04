@@ -11,9 +11,6 @@ summary: "A six-node cluster combining APUs, DPUs, and FPGAs to study how hetero
 status: "active"
 funder: "NSF MRI #2511818"
 amount: "$900,000"
-collaborators:
-  - "University of Tennessee, Chattanooga"
-  - "University of Tennessee, Knoxville"
 ---
 
 This project acquires an advanced computing instrument at Tennessee Tech that brings together three complementary classes of accelerator technology, Accelerated Processing Units (APUs), Data Processing Units (DPUs), and Field-Programmable Gate Arrays (FPGAs), in a single, fully networked six-node cluster.
@@ -24,4 +21,4 @@ The instrument will also support hands-on research training for undergraduate, m
 
 **Funding:** NSF Major Research Instrumentation (MRI) Track 1, [Award #2511818](https://www.nsf.gov/awardsearch/show-award?AWD_ID=2511818) — *Acquisition of a Multi-accelerator Architecture for Advanced Scalable Computing Research* ($900,000, 2026-2029)
 
-**Team:** Susmit Shannigrahi (Co-PI), Anthony Skjellum (PI), Syed Rafay Hasan (Co-PI), Muhammad Ismail (Co-PI), Amani Altarawneh (Co-PI), all at Tennessee Technological University, with collaborators from the University of Tennessee, Chattanooga and the University of Tennessee, Knoxville
+**Team:** Susmit Shannigrahi (Co-PI), Anthony Skjellum (PI), Syed Rafay Hasan (Co-PI), Muhammad Ismail (Co-PI), Amani Altarawneh (Co-PI), all at Tennessee Technological University.

@@ -6,7 +6,7 @@ email: "sshannigrahi@tntech.edu"
 phone: "(931) 372-6259"
 office: "Bruner Hall 331, Tennessee Tech University, Cookeville, TN 38505"
 cv_url: "/cv/susmit-shannigrahi-cv.pdf"
-tagline: "I lead the NGIN Lab at Tennessee Technological University, researching AI-embedded distributed systems, exascale network measurement, and next-generation immersive and edge networking. My research has drawn $4.1M+ in funding across projects including Hydra, N-DISE, and TREN. I am a Senior Member of IEEE. I have served as General Chair, TPC chair and member, and reviewer of several conferences, including IEEE CloudNet, ANTS, VNC, and ACM ICN. I also serve as the graduate coordinator of the Computer Science department."
+tagline: "At NGIN Lab, we're building networks that think for themselves: systems that sense, adapt, and heal in real time. Our work spans AI-embedded distributed systems, exascale network measurement, and immersive AR/VR networking, and right now we're leading TREN, Tennessee's first dedicated research and education network connecting universities statewide. I'm an Associate Professor and Graduate Director in Computer Science at Tennessee Tech and a Senior Member of IEEE, always on the lookout for curious students ready to help build the next generation of the Internet."
 pi: true
 linkedin: "https://www.linkedin.com/in/susmit-shannigrahi-90433b8"
 website: "https://scholar.google.com/citations?user=JA1kZxsAAAAJ&hl=en"
