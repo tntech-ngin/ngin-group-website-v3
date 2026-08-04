@@ -1,3 +1,14 @@
+- year: 2026
+  entries:
+  - key: usmani2026learning
+    title: Learning-Based Reconstruction Attacks on Coordinate-Obfuscated Point Clouds
+    authors:
+    - Mohammad Waquas Usmani
+    - Susmit Shannigrahi
+    - Michael Zink
+    venue: 2nd Workshop on Enhancing Security, Privacy, and Trust in Extended Reality (XR) Systems (XR Security 2026)
+    year: 2026
+    link: ''
 - year: 2025
   entries:
   - key: fitzgerald2025looking
