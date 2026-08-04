@@ -1,5 +1,5 @@
 ---
-title: "Building an Autonomous Water Control System for Floodplain Nutrient Retention"
+title: "Another Big Win: Building an Autonomous Water Control System for Floodplain Nutrient Retention"
 date: 2026-08-04
 tag: "grant"
 summary: "An EPA-funded, machine-learning-based water control system that decides on its own when to hold and release floodplain water to maximize nutrient retention."

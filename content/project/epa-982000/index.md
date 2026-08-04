@@ -26,4 +26,4 @@ This complements the NGIN Lab's other low-cost environmental sensing work (see t
 
 **Funding:** Environmental Protection Agency, Grant #982000 — *Innovative Solutions for Improving Water Quality and Strengthening Local Economies in the Gulf of America Watershed* ($993,953, 2025–)
 
-**Team:** Susmit Shannigrahi (Co-PI)
+**Team:** Susmit Shannigrahi (Co-PI), Justin Murdock (PI), Alfred Kalyanapu (Co-PI)
