@@ -86,7 +86,7 @@
     <div class="news-line-list">
       {{ $news := where .Site.RegularPages "Section" "news" }}
       {{ $talks := where .Site.RegularPages "Section" "talks" }}
-      {{ range first 5 ($news | union $talks).ByDate.Reverse }}
+      {{ range first 15 ($news | union $talks).ByDate.Reverse }}
       <a href="{{ .RelPermalink }}" class="news-line">
         {{ if .Params.tag }}<span class="tag tag-{{ .Params.tag }}">{{ .Params.tag | humanize }}</span>{{ end }}
         <span class="news-line-title">{{ .Title }}</span>

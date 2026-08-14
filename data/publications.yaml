@@ -1,5 +1,15 @@
 - year: 2026
   entries:
+  - key: usmani2026secure
+    title: Secure Point Cloud Streaming with Learning-Based Super-Resolution
+    authors:
+    - Mohammad Waquas Usmani
+    - Sankalpa Timilsina
+    - Michael Zink
+    - Susmit Shannigrahi
+    venue: International Journal of Semantic Computing
+    year: 2026
+    link: ''
   - key: usmani2026learning
     title: Learning-Based Reconstruction Attacks on Coordinate-Obfuscated Point Clouds
     authors:
