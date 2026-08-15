@@ -3,14 +3,8 @@
 # "Active research projects" is not listed here — it's computed automatically
 # from content/project/*/index.md front matter (status: "active")
 
-- number: "7"
+- number: "8"
   label: "Current team members · 18 alumni"
 
 - number: "4"
   label: "Core research areas"
-
-- number: "$5.0M"
-  label: "Total research funding"
-
-- number: "$4.6M"
-  label: "Teaching & service funding"
