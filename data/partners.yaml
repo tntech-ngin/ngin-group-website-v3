@@ -10,6 +10,7 @@ funders:
 
   - name: "Environmental Protection Agency"
     abbr: "EPA"
+    logo: "epa-logo.svg"
     url: "https://www.epa.gov"
 
   - name: "USGF"
@@ -18,14 +19,17 @@ funders:
 
   - name: "Cisco"
     abbr: "Cisco"
+    logo: "cisco-logo.svg"
     url: "https://www.cisco.com"
 
   - name: "Tennessee Board of Regents"
     abbr: "TBR"
+    logo: "tbr-logo.png"
     url: "https://www.tbr.edu"
 
   - name: "Google"
     abbr: "Google"
+    logo: "google-logo.svg"
     url: "https://cloud.google.com"
 
   - name: "Battelle Education"
@@ -40,36 +44,45 @@ collaborators:
 
   - name: "Clemson University"
     abbr: "Clemson"
+    logo: "clemson-logo.svg"
     url: "https://www.clemson.edu"
 
   - name: "University of Massachusetts Amherst"
     abbr: "UMass Amherst"
+    logo: "umass-logo.svg"
     url: "https://www.umass.edu"
 
   - name: "UCLA"
     abbr: "UCLA"
+    logo: "ucla-logo.svg"
     url: "https://www.ucla.edu"
 
   - name: "Florida International University"
     abbr: "FIU"
+    logo: "fiu-logo.svg"
     url: "https://www.fiu.edu"
 
   - name: "Northeastern University"
     abbr: "Northeastern"
+    logo: "northeastern-logo.png"
     url: "https://www.northeastern.edu"
 
   - name: "Caltech"
     abbr: "Caltech"
+    logo: "caltech-logo.png"
     url: "https://www.caltech.edu"
 
   - name: "Colorado State University"
     abbr: "CSU"
+    logo: "csu-logo.svg"
     url: "https://www.colostate.edu"
 
   - name: "CERN"
     abbr: "CERN"
+    logo: "cern-logo.svg"
     url: "https://home.cern"
 
   - name: "Lawrence Berkeley National Laboratory"
     abbr: "LBNL"
+    logo: "lbnl-logo.svg"
     url: "https://www.lbl.gov"
