@@ -7,7 +7,7 @@ tags:
   - "Edge Computing"
 summary: "Developing a low-cost, camera-based sensor for measuring water turbidity, building on the lab's edge-ML water sensing work."
 status: "completed"
-funder: "USGF"
+funder: "USGS"
 amount: "$34,954"
 collaborators: []
 ---
@@ -16,6 +16,6 @@ Water quality monitoring — including turbidity, a key indicator of sediment an
 
 This project develops a **low-cost, camera-based turbidity sensor**, building on the NGIN Lab's edge-ML water sensing work (see [AquaCam](/news/news-2025-percom/)), to make dense, low-cost water quality monitoring practical for a wider range of sites.
 
-**Funding:** USGF — *Development of a Low-Cost Camera-Based Turbidity Sensor* ($34,954, 2024–2025)
+**Funding:** USGS — *Development of a Low-Cost Camera-Based Turbidity Sensor* ($34,954, 2024–2025)
 
 **Team:** Susmit Shannigrahi (Co-PI)

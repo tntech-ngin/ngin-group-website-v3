@@ -13,9 +13,10 @@ funders:
     logo: "epa-logo.svg"
     url: "https://www.epa.gov"
 
-  - name: "USGF"
-    abbr: "USGF"
-    url: ""
+  - name: "U.S. Geological Survey"
+    abbr: "USGS"
+    logo: "usgs-logo.svg"
+    url: "https://www.usgs.gov"
 
   - name: "Cisco"
     abbr: "Cisco"
@@ -27,14 +28,10 @@ funders:
     logo: "tbr-logo.png"
     url: "https://www.tbr.edu"
 
-  - name: "Google"
-    abbr: "Google"
-    logo: "google-logo.svg"
-    url: "https://cloud.google.com"
-
   - name: "Battelle Education"
     abbr: "Battelle"
-    url: ""
+    logo: "battelle-logo.png"
+    url: "https://education.battelle.org"
 
 collaborators:
   - name: "Tennessee Technological University"
