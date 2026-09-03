@@ -1,5 +1,15 @@
 - year: 2026
   entries:
+  - key: puttaswamy2026scaling
+    title: Scaling Synthetic Network Traffic Generation with Diffusion Transformers
+    authors:
+    - Shashwitha Puttaswamy
+    - Sadat Bin Faruque
+    - Sankalpa Timilsina
+    - Susmit Shannigrahi
+    venue: 2026 IEEE International Conference on Advanced Networks and Telecommunications Systems (ANTS)
+    year: 2026
+    link: ''
   - key: usmani2026secure
     title: Secure Point Cloud Streaming with Learning-Based Super-Resolution
     authors:
