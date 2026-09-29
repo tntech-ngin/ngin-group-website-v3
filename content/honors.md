@@ -37,6 +37,7 @@ date: 2025-07-13
 - Reviewer, Computer Networks (Elsevier)
 
 ## Technical Program Committees
+- TPC member, IEEE NetSoft 2027
 - TPC member, IEEE ISM 2026
 - TPC member (Networking Track), ICDCN 2027, NIT Karnataka, Surathkal, India
 - TPC member, IEEE INFOCOM 2027
