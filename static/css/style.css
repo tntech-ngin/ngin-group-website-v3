@@ -482,3 +482,13 @@ body {
 .member-tag { font-size:11px;padding:3px 10px;border-radius:20px;background:var(--orange-pale);color:var(--orange-dark); }
 .member-back { font-size:13px;color:var(--orange-dark);text-decoration:none; }
 @media(max-width:768px){ .member-layout{grid-template-columns:1fr;} .member-photo{max-width:200px;} }
+
+/* ─── Activity log (unlisted /log/) ──────────────────────── */
+.log-count { font-size: 12px; font-weight: 500; color: var(--text-muted); margin-left: 6px; }
+.log-year { font-size: 13px; font-weight: 600; color: var(--text-muted); margin: 1.25rem 0 0; }
+.log-list { margin-top: 0.5rem; }
+.log-notes { font-weight: 400; color: var(--text-muted); }
+.log-upcoming {
+  display: inline-block; font-size: 10.5px; font-weight: 600; text-transform: uppercase; letter-spacing: .04em;
+  color: var(--orange-dark); border: 0.5px solid currentColor; border-radius: 3px; padding: 0 5px; margin-right: 6px;
+}

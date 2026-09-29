@@ -1,0 +1,53 @@
+{{ define "main" }}
+<div class="page-wrap">
+  <div class="page-inner">
+    <header class="page-header">
+      <div class="eyebrow">Log</div>
+      <h1>{{ .Title }}</h1>
+    </header>
+
+    {{ $entries := sort hugo.Data.log "date" "desc" }}
+    {{ $today := now.Format "2006-01-02" }}
+    {{ range $cat := slice "research" "teaching" "service" }}
+    {{ $items := where $entries "category" $cat }}
+    {{ if $items }}
+    <h2 class="talks-subsection">{{ title $cat }} <span class="log-count">{{ len $items }}</span></h2>
+    {{ $year := "none" }}
+    {{ range $items }}
+      {{ $d := string .date }}
+      {{ $y := cond (ge (len $d) 4) (substr $d 0 4) "Undated" }}
+      {{ if ne $y $year }}
+        {{ if ne $year "none" }}</div>{{ end }}
+        <h3 class="log-year">{{ $y }}</h3>
+        <div class="news-line-list log-list">
+        {{ $year = $y }}
+      {{ end }}
+
+      {{ $when := "" }}
+      {{ with .when }}{{ $when = . }}
+      {{ else }}
+        {{ if eq (len $d) 10 }}{{ $when = time.Format "Jan 2, 2006" $d }}
+        {{ else if eq (len $d) 7 }}{{ $when = time.Format "Jan 2006" (printf "%s-01" $d) }}
+        {{ else }}{{ $when = $d }}{{ end }}
+      {{ end }}
+      {{ with .end }}{{ $when = printf "%s–%v" $when . }}{{ end }}
+
+      {{ $meta := slice .type }}
+      {{ with .role }}{{ $meta = $meta | append . }}{{ end }}
+      {{ with $when }}{{ $meta = $meta | append . }}{{ end }}
+
+      <div class="news-line">
+        <span class="news-line-title">
+          {{ if and (eq (len $d) 10) (gt $d $today) }}<span class="log-upcoming">upcoming</span>{{ end }}
+          {{ .title }}{{ with .notes }} <span class="log-notes">— {{ . }}</span>{{ end }}
+        </span>
+        <span class="news-line-date">{{ delimit $meta " · " }}</span>
+        {{ with .link }}<a href="{{ . | relURL }}" class="news-line-more">Details →</a>{{ end }}
+      </div>
+    {{ end }}
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

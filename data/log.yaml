@@ -1,0 +1,1212 @@
+# Running activity log for the dossier. Rendered at /log/ (unlisted, noindex).
+# One entry per activity, in any order; the page groups by category and year.
+# Quote dates so YAML keeps them as strings.
+#
+#   date:     'YYYY-MM-DD', 'YYYY-MM' or 'YYYY' (start date for multi-day items)
+#   category: research | teaching | service
+#   type:     free text, e.g. workshop, PC, review, talk, grant, paper, course, advising
+#   title:    what it was
+#   when:     optional display override for the date, e.g. "Fall 2025"
+#   end:      optional end year or "present", for ongoing roles
+#   role:     optional, e.g. attendee, presenter, PI, instructor
+#   link:     optional URL (public site page or external)
+#   notes:    optional one-liner
+
+- date: '2026-12-17'
+  category: research
+  type: presentation
+  title: Scaling Synthetic Network Traffic Generation with Diffusion Transformers
+  role: presenter
+  notes: IEEE ANTS 2026, IIT Roorkee, India; Dec 17–20
+  link: https://ants2026.ieee-ants.org/
+- date: '2026-10-30'
+  category: research
+  type: presentation
+  title: Learning-Based Reconstruction Attacks on Coordinate-Obfuscated Point Clouds
+  role: presenter
+  notes: XR Security 2026 (with ACM MobiCom 2026), UT Austin
+  link: https://xrsecurity.github.io/2026/
+- date: '2026-09-29'
+  category: research
+  type: workshop
+  title: MERIF26 / FABRIC Workshop (Midscale Experimental Research Infrastructure Forum)
+  role: attendee
+  notes: George Washington University, Washington, DC; Sep 29–30
+  link: https://merif.renci.org/merif26-agenda
+- date: '2026-09-03'
+  category: research
+  type: paper
+  title: Scaling Synthetic Network Traffic Generation with Diffusion Transformers
+  role: accepted
+  notes: 2026 IEEE International Conference on Advanced Networks and Telecommunications Systems (ANTS)
+  link: /publication/
+- date: '2026-08-14'
+  category: research
+  type: paper
+  title: Secure Point Cloud Streaming with Learning-Based Super-Resolution
+  role: accepted
+  notes: International Journal of Semantic Computing
+  link: /publication/
+- date: '2026-08-04'
+  category: research
+  type: paper
+  title: Learning-Based Reconstruction Attacks on Coordinate-Obfuscated Point Clouds
+  role: accepted
+  notes: 2nd Workshop on Enhancing Security, Privacy, and Trust in Extended Reality (XR) Systems (XR Security 2026)
+  link: /publication/
+- date: '2026-07-29'
+  category: research
+  type: grant
+  title: 'NSF MRI Track 1 #2511818: Multi-Accelerator Architecture for Advanced Scalable Computing Research'
+  notes: $900,000, 2026–2029
+  link: /project/mri-multi-accelerator/
+- date: '2026-07-23'
+  category: research
+  type: invited talk
+  title: Lightning Talk at the 2026 CRA Summit
+  notes: 2026 CRA Summit
+  link: /talks/it-2026-cra-summit/
+- date: '2025-07'
+  category: research
+  type: grant
+  title: 'EPA #982000: Improving Water Quality in the Gulf of America Watershed'
+  notes: $993,953, 2025–
+  link: /project/epa-982000/
+- date: '2025'
+  category: research
+  type: invited talk
+  title: 'Proof-of-Concept: Machine Learning Based Flood Monitoring System Using Edge Computing and IoT Solutions in Little Creek'
+  notes: TNTech Innovation Day
+  link: /talks/it-2025-flood-monitoring-poc/
+- date: '2025-01-11'
+  category: research
+  type: paper
+  title: 'Secure the Stream, Not the Hosts: Attribute-Based Encryption for DRM Enabled Video Streaming'
+  notes: IEEE MMSys
+  link: /publication/
+- date: '2025-01-11'
+  category: research
+  type: paper
+  title: 'AquaCam: An ML-enhanced Low-Cost, Deploy-Anywhere Water Level Detection Sensor'
+  notes: IEEE PerCom
+  link: /publication/
+- date: '2025'
+  category: research
+  type: presentation
+  title: 'PSMOA: Policy Support for Data Replication'
+  notes: IEEE ICC, Montreal
+  link: /talks/pres-2025-psmoa-icc/
+- date: '2025'
+  category: research
+  type: paper
+  title: 'PSMOA: Policy Support Multi-Objective Optimization Algorithm for Decentralized Data Replication'
+  notes: IEEE ICC 2025
+  link: /publication/
+- date: '2025'
+  category: research
+  type: paper
+  title: 'Learning to Schedule: A Supervised Learning Framework for Network-Aware Scheduling of Data-Intensive Workloads'
+  notes: Proceedings of the SC'25 Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis
+  link: /publication/
+- date: '2025'
+  category: research
+  type: paper
+  title: 'PSMOA: Policy Support for Data Replication'
+  notes: 2025 IEEE 22nd Consumer Communications & Networking Conference (CCNC)
+  link: /publication/
+- date: '2025'
+  category: research
+  type: preprint
+  title: Securing Immersive 360 Video Streams through Attribute-Based Selective Encryption
+  notes: ArXiV
+  link: /publication/
+- date: '2025'
+  category: research
+  type: paper
+  title: MDTP–An Adaptive Multi-Source Data Transfer Protocol
+  notes: IEEE ICCCN
+  link: /publication/
+- date: '2025'
+  category: research
+  type: paper
+  title: Lightweight DRM for Volumetric Point Clouds through Attribute-Based Selective Coordinate Encryption
+  notes: Proceedings of the XRSecurity 2025 Workshop, Co-located with ACM MobiHoc 2025
+  link: /publication/
+- date: '2024-12-30'
+  category: research
+  type: paper
+  title: Looking for Errors TCP Misses
+  notes: IEEE NOMS
+  link: /publication/
+- date: '2024-12-01'
+  category: research
+  type: paper
+  title: 'LIDC: A Location Independent Multi-Cluster Computing Framework for Data Intensive Science'
+  notes: INDIS Workshop, Supercomputing 2024
+  link: /publication/
+- date: '2024-09'
+  category: research
+  type: grant
+  title: 'NSF CC* #2430341: TREN, Building a Tennessee Research and Education Network'
+  notes: $200,000, 2024–2026
+  link: /project/tren/
+- date: '2024-09'
+  category: research
+  type: grant
+  title: 'USGS: Low-Cost Camera-Based Turbidity Sensor'
+  notes: $34,954, 2024–2025
+  link: /project/turbidity-sensor/
+- date: '2024'
+  category: research
+  type: invited talk
+  title: An Integrated Data-Anywhere Paradigm for Genomics Workflows Using Hydra
+  notes: KNIT9 and MERIF Workshop, Kansas City
+  link: /talks/it-2024-hydra-data-anywhere-knit9/
+- date: '2024'
+  category: research
+  type: paper
+  title: A Named Data Networking Based Fast Open Storage System Plugin for XRootD
+  notes: EPJ Web of Conferences
+  link: /publication/
+- date: '2024'
+  category: research
+  type: paper
+  title: 'Science DMZ Networks: How Different are They Really?'
+  link: /publication/
+- date: '2024'
+  category: research
+  type: paper
+  title: 'Hydra: A Scalable Decentralized P2P Storage Federation for Large Scientific Datasets'
+  notes: 2024 International Conference on Computing, Networking and Communications (ICNC)
+  link: /publication/
+- date: '2023-07-11'
+  category: research
+  type: media
+  title: Bio-IT World Covers the Hydra Genomics Federation Test
+  link: /news/hydra-bioitworld/
+- date: '2023'
+  category: research
+  type: invited talk
+  title: Named Data Networking Ecosystem
+  notes: University of California, Los Angeles
+  link: /talks/it-2023-ndn-ecosystem-ucla/
+- date: '2023'
+  category: research
+  type: presentation
+  title: 'GNSGA: A Decentralized Data Replication Algorithm for Big Science Data'
+  notes: IFIP Networking, Barcelona
+  link: /talks/pres-2023-gnsga-ifip-networking/
+- date: '2023-06-01'
+  category: research
+  type: media
+  title: Tennessee Tech's Science DMZ Network Featured in the Herald-Citizen
+  link: /news/tren-dmz-herald-citizen/
+- date: '2023'
+  category: research
+  type: invited talk
+  title: 'Rethinking System Design for Big Data: The Role of Networked Systems and Future Directions'
+  notes: University of Notre Dame
+  link: /talks/it-2023-rethinking-system-design-notre-dame/
+- date: '2023'
+  category: research
+  type: presentation
+  title: A Named Data Networking Based Fast Open Storage System Plugin for XRootD
+  notes: CHEP 2023, Norfolk
+  link: /talks/pres-2023-ndn-xrootd-chep/
+- date: '2023'
+  category: research
+  type: invited talk
+  title: Hydra — A Federated Data Repository for Big Science
+  notes: KNIT7, FABRIC Community Workshop, Columbus
+  link: /talks/it-2023-hydra-knit7-fabric/
+- date: '2023'
+  category: research
+  type: presentation
+  title: An Argument for NDN Bridges in Hierarchical In-Vehicle Networks
+  notes: IEEE VNC, Istanbul
+  link: /talks/pres-2023-ndn-bridges-vnc/
+- date: '2023'
+  category: research
+  type: invited talk
+  title: Hydra — A Federated Storage System for Genomics Data
+  notes: BioIT World Conference & Expo, Boston
+  link: /talks/it-2023-hydra-bioit/
+- date: '2023'
+  category: research
+  type: invited talk
+  title: Simplifying Big-Data Infrastructure with a Name-Based Ecosystem — Experiences and Lessons Learned
+  notes: Graduate Seminar, UMass Amherst
+  link: /talks/it-2023-name-based-ecosystem-umass/
+- date: '2023'
+  category: research
+  type: paper
+  title: An Argument for NDN Bridges in Hierarchical In-Vehicle Networks
+  notes: IEEE VNC
+  link: /publication/
+- date: '2023'
+  category: research
+  type: paper
+  title: Software-Defined Network-Based Proactive Routing Strategy in Smart Power Grids Using Graph Neural Network and Reinforcement Learning
+  notes: e-Prime-Advances in Electrical Engineering, Electronics and Energy
+  link: /publication/
+- date: '2023'
+  category: research
+  type: paper
+  title: 'GNSGA: A Decentralized Data Replication Algorithm for Big Science Data'
+  notes: 2023 IFIP Networking Conference (IFIP Networking)
+  link: /publication/
+- date: '2023'
+  category: research
+  type: paper
+  title: Big Data, Transmission Errors, and the Internet
+  notes: 2023 53rd Annual IEEE/IFIP International Conference on Dependable Systems and Networks-Supplemental Volume (DSN-S)
+  link: /publication/
+- date: '2023'
+  category: research
+  type: paper
+  title: Capture and Analysis of Traffic Traces on a Wide-Area NDN Testbed
+  notes: ACM Conference on Information-Centric Networking (ACM ICN ’23)
+  link: /publication/
+- date: '2023'
+  category: research
+  type: award
+  title: Tennessee Tech Wings Up 100 Award
+- date: '2022'
+  category: research
+  type: invited talk
+  title: Hydra — A Federated Data Repository for Big Science
+  notes: NSF CC* PI Meeting, Minneapolis
+  link: /talks/it-2022-hydra-nsf-ccstar-pi-meeting/
+- date: '2022'
+  category: research
+  type: invited talk
+  title: Hydra — A Federated Data Repository for Big Science
+  notes: KNIT5, FABRIC Community Workshop, Chicago
+  link: /talks/it-2022-hydra-knit5-fabric/
+- date: '2022'
+  category: research
+  type: invited talk
+  title: A Name Based Ecosystem for Big Science — Experience and Lessons Learned
+  notes: Seminar at Oak Ridge National Laboratory
+  link: /talks/it-2022-name-based-ecosystem-ornl/
+- date: '2022'
+  category: research
+  type: invited talk
+  title: Next-Generation Networking for Genomics Workflows
+  notes: Bio-IT World Conference & Expo, Boston
+  link: /talks/it-2022-ndn-genomics-bioit-world/
+- date: '2022'
+  category: research
+  type: preprint
+  title: Hydra – A Federated Data Repository over NDN
+  notes: arXiv
+  link: /publication/
+- date: '2022'
+  category: research
+  type: paper
+  title: Vehicle-to-Vehicle Charging Coordination over Information Centric Networking
+  notes: 2022 IEEE 47th Conference on Local Computer Networks (LCN)
+  link: /publication/
+- date: '2022'
+  category: research
+  type: paper
+  title: Securing Automotive Architectures with Named Data Networking
+  notes: 2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)
+  link: /publication/
+- date: '2022'
+  category: research
+  type: paper
+  title: 'N-DISE: NDN-Based Data Distribution for Large-Scale Data-Intensive Science'
+  notes: Proceedings of the 9th ACM Conference on Information-Centric Networking
+  link: /publication/
+- date: '2022'
+  category: research
+  type: paper
+  title: Graph Neural Network Based Prediction of Data Traffic in Cyber-Physical Smart Power Grids
+  notes: IEEE SmartGridComm'22
+  link: /publication/
+- date: '2022'
+  category: research
+  type: paper
+  title: Software-Defined Routing Strategy Based on Reinforcement Learning in Smart Power Grid
+  notes: SoutheastCon 2022
+  link: /publication/
+- date: '2022'
+  category: research
+  type: paper
+  title: 'A Hybrid NDN-IP Architecture for Live Video Streaming: From Host-Based to Content-Based Delivery to Improve QoE'
+  notes: International Journal of Semantic Computing
+  link: /publication/
+- date: '2022'
+  category: research
+  type: paper
+  title: 'WiP: AABAC-Automated Attribute Based Access Control for Genomics Data'
+  notes: Proceedings of the 27th ACM on Symposium on Access Control Models and Technologies
+  link: /publication/
+- date: '2022'
+  category: research
+  type: paper
+  title: An Information Centric Framework for Weather Sensing Data
+  notes: 2022 IEEE International Conference on Communications Workshops (ICC Workshops)
+  link: /publication/
+- date: '2022'
+  category: research
+  type: award
+  title: Tennessee Tech Wings Up 100 Award
+- date: '2021-09'
+  category: research
+  type: grant
+  title: 'NSF CC* Integration-Large #2126148: Hydra, Secure Distributed Storage for Big Science'
+  notes: $997,221
+  link: /project/hydra/
+- date: '2021'
+  category: research
+  type: invited talk
+  title: Next-Generation Networking for Wireless Sensor Networks and IoT
+  notes: Keynote, Springer Smart DSC 2021, KL University, India
+  link: /talks/it-2021-ndn-wsn-iot-keynote-smartdsc/
+- date: '2021'
+  category: research
+  type: invited talk
+  title: Next-Generation Cyber-Infrastructure for Next-Generation Genomics Workflows
+  notes: 3rd FABRIC Community Workshop
+  link: /talks/it-2021-next-gen-cyberinfra-genomics-fabric/
+- date: '2021'
+  category: research
+  type: paper
+  title: 'Designing Hydra with Centralized versus Decentralized Control: A Comparative Study'
+  notes: Proceedings of the Interdisciplinary Workshop on (de) Centralization in the Internet
+  link: /publication/
+- date: '2021'
+  category: research
+  type: paper
+  title: A Name-Based Secure Communications Architecture for Vehicular Networks
+  notes: 2021 IEEE Vehicular Networking Conference (VNC)
+  link: /publication/
+- date: '2021'
+  category: research
+  type: paper
+  title: 'A hybrid NDN-IP Architecture for Live Video Streaming: A QoE Analysis'
+  notes: 2021 IEEE International Symposium on Multimedia (ISM)
+  link: /publication/
+- date: '2021'
+  category: research
+  type: paper
+  title: In-Vehicle Networking with NDN
+  notes: Proceedings of the 8th ACM Conference on Information-Centric Networking
+  link: /publication/
+- date: '2021'
+  category: research
+  type: paper
+  title: 'Networking and Computing in Biomechanical Research: Challenges and Directions'
+  notes: IEEE Communications Magazine
+  link: /publication/
+- date: '2021'
+  category: research
+  type: paper
+  title: 'CLEDGE: A Hybrid Cloud-Edge Computing Framework over Information Centric Networking'
+  notes: 2021 IEEE 46th Conference on Local Computer Networks (LCN)
+  link: /publication/
+- date: '2021'
+  category: research
+  type: paper
+  title: Named Data Networking for Genomics Data Management and Integrated Workflows
+  notes: Frontiers in Big Data
+  link: /publication/
+- date: '2021'
+  category: research
+  type: award
+  title: Tennessee Tech Wings Up 100 Award
+- date: '2020'
+  category: research
+  type: presentation
+  title: Named Data Networking for Content Delivery Network Workflows
+  notes: IEEE CloudNet (Virtual Conference)
+  link: /talks/pres-2020-ndn-cdn-workflows-cloudnet/
+- date: '2020-10'
+  category: research
+  type: grant
+  title: 'NSF CCRI Planning #2016714: LLRIS'
+  notes: $132,200; TNTech share $14,994, 2020–2022
+  link: /project/llris/
+- date: '2020'
+  category: research
+  type: presentation
+  title: NDN-Repo Design Considerations and Future Work
+  notes: NDNComm, NIST
+  link: /talks/pres-2020-ndn-repo-ndncomm/
+- date: '2020-09'
+  category: research
+  type: grant
+  title: 'NSF CC* Integration-Large #2019012: N-DISE'
+  notes: $1,025,000; TNTech share $115,500
+  link: /project/n-dise/
+- date: '2020-08'
+  category: research
+  type: grant
+  title: 'NSF CC* Integration Small #2019163: Error Free File Transfer for Big Science (hipFT)'
+  notes: $470,431; TNTech share $162,416
+  link: /project/hipft/
+- date: '2020-07'
+  category: research
+  type: grant
+  title: 'NSF CC* Networking Infrastructure #2018373: Science DMZ and 10Gbps Connection to Internet2'
+  notes: $292,322 incl. REU supplement, 2020–2024
+  link: /project/science-dmz/
+- date: '2020'
+  category: research
+  type: paper
+  title: Named Data Networking for Content Delivery Network Workflows
+  notes: 2020 IEEE 9th International Conference on Cloud Networking (CloudNet)
+  link: /publication/
+- date: '2020'
+  category: research
+  type: paper
+  title: What's in a Name? Naming Big Science Data in Named Data Networking
+  notes: Proceedings of the 7th ACM Conference on Information-Centric Networking
+  link: /publication/
+- date: '2020'
+  category: research
+  type: paper
+  title: 'Dynamic Address Validation Array (DAVA): A Moving Target Defense Protocol for CAN Bus'
+  notes: Proceedings of the 7th ACM Workshop on Moving Target Defense
+  link: /publication/
+- date: '2020'
+  category: research
+  type: paper
+  title: Discovering In-Network Caching Policies in NDN Networks from a Measurement Perspective
+  notes: Proceedings of the 7th ACM Conference on Information-Centric Networking
+  link: /publication/
+- date: '2020'
+  category: research
+  type: paper
+  title: Next-Generation Networking and Edge Computing for Mixed Reality Real-Time Interactive Systems
+  notes: 2020 IEEE International Conference on Communications Workshops (ICC Workshops)
+  link: /publication/
+- date: '2020'
+  category: research
+  type: paper
+  title: Named Data Networking based File Access for XRootD
+  notes: EPJ Web Conf.
+  link: /publication/
+- date: '2019'
+  category: research
+  type: invited talk
+  title: The Future of Networking is the Future of Big Data
+  notes: California State University, Long Beach
+  link: /talks/it-2019-future-networking-big-data-csulb/
+- date: '2019'
+  category: research
+  type: invited talk
+  title: The Future of Networking is the Future of Big Data
+  notes: Valdosta State University, Valdosta, Georgia
+  link: /talks/it-2019-future-networking-big-data-valdosta/
+- date: '2019'
+  category: research
+  type: invited talk
+  title: The Future of Networking is the Future of Big Data
+  notes: North Carolina A&T State University, Greensboro, North Carolina
+  link: /talks/it-2019-future-networking-big-data-ncat/
+- date: '2019'
+  category: research
+  type: invited talk
+  title: The Future of Networking is the Future of Big Data
+  notes: SUNY Buffalo State, Buffalo, New York
+  link: /talks/it-2019-future-networking-big-data-suny-buffalo/
+- date: '2019'
+  category: research
+  type: invited talk
+  title: The Future of Networking is the Future of Big Data
+  notes: Tennessee Technological University, Cookeville, Tennessee
+  link: /talks/it-2019-future-networking-big-data-tntech/
+- date: '2019'
+  category: research
+  type: invited talk
+  title: The Future of Networking is the Future of Big Data
+  notes: Hobart and William Smith Colleges, Geneva, New York
+  link: /talks/it-2019-future-networking-big-data-hobart-william-smith/
+- date: '2019'
+  category: research
+  type: award
+  title: Travel award to participate in NSF Early Career Workshop, Alexandria, VA
+- date: '2019'
+  category: research
+  type: workshop
+  title: NSF-sponsored NeTS-ECI Workshop — "Address emerging challenges and pursue promising research opportunities in networking," Alexandria, VA
+- date: '2018'
+  category: research
+  type: invited talk
+  title: The Future of Networking is the Future of Big Data
+  notes: University of Houston-Victoria
+  link: /talks/it-2018-future-networking-big-data-uh-victoria/
+- date: '2018-11-01'
+  category: research
+  type: media
+  title: Petascale to Exascale Science Workflows at Supercomputing 2018
+  link: /news/sc18-petascale-exascale/
+- date: '2018'
+  category: research
+  type: invited talk
+  title: Advancing Scientific Data Sharing, Discovery, and Security with Information Centric Networking (ICN)
+  notes: Internet2 Technology Exchange, Orlando, Florida
+  link: /talks/it-2018-advancing-scientific-data-sharing-internet2/
+- date: '2018'
+  category: research
+  type: invited talk
+  title: ICN for Large Science Data
+  notes: Profiles in Partnership, Internet2 Technology Exchange, Orlando, Florida
+  link: /talks/it-2018-icn-large-science-data-internet2/
+- date: '2018'
+  category: research
+  type: presentation
+  title: 'Bridging the ICN Deployment Gap with IPoC: An IP-over-ICN Protocol for 5G Networks'
+  notes: SIGCOMM Workshops, Budapest, Hungary
+  link: /talks/pres-2018-ipoc-sigcomm/
+- date: '2018'
+  category: research
+  type: invited talk
+  title: NDN for Data Intensive Science — SANDIE
+  notes: NDNComm, NIST, Maryland
+  link: /talks/it-2018-ndn-data-intensive-science-sandie-ndncomm/
+- date: '2018-06-01'
+  category: research
+  type: media
+  title: 'IPoC: A New Core Networking Protocol for 5G Networks'
+  link: /news/ipoc-5g-cablelabs/
+- date: '2018'
+  category: research
+  type: presentation
+  title: Performance Evaluation of Named Data Networking Forwarding Daemon (NFD)
+  notes: Online Seminar
+  link: /talks/pres-2018-nfd-performance-eval/
+- date: '2018'
+  category: research
+  type: invited talk
+  title: Named Data Networking in Scientific Applications
+  notes: Montana Tech, Montana
+  link: /talks/it-2018-ndn-scientific-applications-montana-tech/
+- date: '2018'
+  category: research
+  type: invited talk
+  title: Named Data Networking in Scientific Applications
+  notes: Southern Illinois University Edwardsville, IL
+  link: /talks/it-2018-ndn-scientific-applications-siue/
+- date: '2018'
+  category: research
+  type: paper
+  title: 'Bridging the ICN Deployment Gap with IPoC: An IP-over-ICN Protocol for 5G Networks'
+  notes: Proceedings of the 2018 Workshop on Networking for Emerging Applications and Technologies
+  link: /publication/
+- date: '2018'
+  category: research
+  type: paper
+  title: Named Data Networking Strategies for Improving Large Scientific Data Transfers
+  notes: 2018 IEEE International Conference on Communications Workshops (ICC Workshops)
+  link: /publication/
+- date: '2018'
+  category: research
+  type: paper
+  title: 'NDN Construction for Big Science: Lessons Learned from Establishing a Testbed'
+  notes: IEEE Network
+  link: /publication/
+- date: '2018'
+  category: research
+  type: paper
+  title: NDN-SCI - Building a Large Scientific Data Management Framework using Named Data Networking(under review)
+  notes: IEEE Transactions on Computing Systems
+  link: /publication/
+- date: '2018'
+  category: research
+  type: paper
+  title: 'SCARI: A Strategic Caching and Reservation Protocol for ICN'
+  notes: Proceedings of the Asian Internet Engineering Conference
+  link: /publication/
+- date: '2017'
+  category: research
+  type: presentation
+  title: 'Request Aggregation, Caching, and Forwarding Strategies for Improving Large Climate Data Distribution with NDN: A Case Study'
+  notes: ICN 2017, Berlin, DE
+  link: /talks/pres-2017-climate-data-ndn-icn/
+- date: '2017'
+  category: research
+  type: presentation
+  title: NDN-Android
+  notes: ICN 2017, Berlin, DE
+  link: /talks/pres-2017-ndn-android-icn/
+- date: '2017'
+  category: research
+  type: invited talk
+  title: Named Data Networking in Scientific Applications
+  notes: Memphis, TN
+  link: /talks/it-2017-ndn-scientific-applications-memphis/
+- date: '2017'
+  category: research
+  type: presentation
+  title: Revisiting Traceroute for NDN
+  notes: Online Seminar
+  link: /talks/pres-2017-traceroute-ndn/
+- date: '2017'
+  category: research
+  type: paper
+  title: 'Request Aggregation, Caching, and Forwarding Strategies for Improving Large Climate Data Distribution with NDN: A Case Study'
+  notes: Proceedings of the 4th ACM Conference on Information-Centric Networking
+  link: /publication/
+- date: '2016'
+  category: research
+  type: presentation
+  title: Applying NDN to Large Scientific Data
+  notes: Online Seminar
+  link: /talks/pres-2016-applying-ndn-scientific-data/
+- date: '2016'
+  category: research
+  type: presentation
+  title: Scientific Data Applications in NDN
+  notes: Online Seminar
+  link: /talks/pres-2016-scientific-data-ndn/
+- date: '2016'
+  category: research
+  type: award
+  title: Travel award to participate in NSF Data Science Workshop, University of Washington, Seattle
+- date: '2016'
+  category: research
+  type: workshop
+  title: NSF-sponsored Graduate Data Science Workshop, University of Washington, Seattle, WA
+- date: '2015'
+  category: research
+  type: presentation
+  title: Managing Scientific Data with Named Data Networking
+  notes: Denver, CO
+  link: /talks/pres-2015-managing-scientific-data-ndn-denver/
+- date: '2015'
+  category: research
+  type: presentation
+  title: Supporting Scientific Applications with NDN
+  notes: Denver, CO
+  link: /talks/pres-2015-supporting-scientific-applications-ndn-denver/
+- date: '2015'
+  category: research
+  type: presentation
+  title: NDN for Scientific Data Applications
+  notes: Online Seminar
+  link: /talks/pres-2015-ndn-scientific-data-applications/
+- date: '2015'
+  category: research
+  type: presentation
+  title: Managing Scientific Data with NDN
+  notes: UCLA, CA
+  link: /talks/pres-2015-managing-scientific-data-ndn-ucla/
+- date: '2015'
+  category: research
+  type: paper
+  title: Managing Scientific Data with Named Data Networking
+  notes: Proceedings of the Fifth International Workshop on Network-Aware Data Management
+  link: /publication/
+- date: '2015'
+  category: research
+  type: paper
+  title: Named Data Networking in Climate Research and HEP Applications
+  notes: 'Journal of Physics: Conference Series'
+  link: /publication/
+- date: '2015'
+  category: research
+  type: award
+  title: Travel award to participate in NSF Data Science Workshop, University of Washington, Seattle
+- date: '2015'
+  category: research
+  type: workshop
+  title: NSF-sponsored Graduate Data Science Workshop, University of Washington, Seattle, WA
+- date: '2014'
+  category: research
+  type: presentation
+  title: NDN-Fuse
+  notes: Denver, CO
+  link: /talks/pres-2014-ndn-fuse/
+- date: '2014'
+  category: research
+  type: invited talk
+  title: Supporting Climate Applications over Named Data Networking (NDN)
+  notes: NOAA, Boulder, CO
+  link: /talks/it-2014-ndn-climate-noaa/
+- date: '2014'
+  category: research
+  type: presentation
+  title: NDN-Atmos
+  notes: Colorado State University, Fort Collins, CO
+  link: /talks/pres-2014-ndn-atmos/
+- date: '2014'
+  category: research
+  type: paper
+  title: Supporting climate research using named data networking
+  notes: 2014 IEEE 20th International Workshop on Local Metropolitan Area Networks (LANMAN)
+  link: /publication/
+- date: '2014'
+  category: research
+  type: workshop
+  title: '"Building the Next-Gen Campus Infrastructure for Supporting Data-Intensive Science — Operating Innovative Networks," LBNL, Berkeley, CA'
+- date: '2013'
+  category: research
+  type: presentation
+  title: NDN for Scientific Data
+  notes: UCLA, CA
+  link: /talks/pres-2013-ndn-scientific-data-ucla/
+- date: '2013'
+  category: research
+  type: award
+  title: NSF travel award for attending ICNP
+- date: '2012'
+  category: research
+  type: invited talk
+  title: Benefit of CCN for Large Data
+  notes: University of Colorado, Boulder, CO
+  link: /talks/it-2012-benefit-ccn-large-data-cu-boulder/
+- date: '2012'
+  category: research
+  type: presentation
+  title: NDN-Traceroute
+  notes: UCLA, CA
+  link: /talks/pres-2012-ndn-traceroute-ucla/
+- date: '2012'
+  category: research
+  type: presentation
+  title: Benefit of CCN for Large Data
+  notes: UCLA, CA
+  link: /talks/pres-2012-benefit-ccn-ucla/
+- date: '2010'
+  category: research
+  type: presentation
+  title: 'Fedora Medical Spin: In Search of a Comprehensive Solution for the Healthcare Community'
+  notes: Bangalore, India
+  link: /talks/pres-2010-fedora-medical-spin/
+- date: '2010'
+  category: research
+  type: paper
+  title: Fast BGP Convergence Following Link/Router Failure
+  notes: Distributed Computing and Networking
+  link: /publication/
+- date: '2009'
+  category: research
+  type: presentation
+  title: Redrawing and Rewriting the Fedora Distribution Process
+  notes: Bangalore, India
+  link: /talks/pres-2009-fedora-distribution-rewrite/
+- date: ''
+  category: research
+  type: paper
+  title: NDN-based Data Distribution for Large-Scale Data-Intensive Science
+  notes: IEEE
+  link: /publication/
+- date: '2025-08'
+  category: teaching
+  type: course
+  title: CSC4200/5200 Computer Networking
+  when: Fall 2025
+  role: instructor
+  notes: 35 students
+- date: '2025-08'
+  category: teaching
+  type: course
+  title: CSC4780 Advanced Network Security
+  when: Fall 2025
+  role: instructor
+  notes: 18 students
+- date: '2025-01'
+  category: teaching
+  type: course
+  title: CSC4200/5200 Computer Networking
+  when: Spring 2025
+  role: instructor
+  notes: 35 students
+- date: '2024-08'
+  category: teaching
+  type: course
+  title: CSC2770 Introduction to Networking and Systems
+  when: Fall 2024
+  role: instructor
+  notes: 31 students
+  link: https://tntech-ngin.github.io/F24-CSC2770/
+- date: '2024-08'
+  category: teaching
+  type: course
+  title: CSC4200/5200 Computer Networking
+  when: Fall 2024
+  role: instructor
+  notes: 35 students
+  link: https://tntech-ngin.github.io/F24-CSC4200/
+- date: '2024-05-16'
+  category: teaching
+  type: grant
+  title: Tennessee Board of Regents Open Educational Resources Grant (CSC 4200/5200)
+  notes: $17,381
+  link: /news/news-2024-oer-grant/
+- date: '2024-01'
+  category: teaching
+  type: course
+  title: CSC4780 Network Security
+  when: Spring 2024
+  role: instructor
+  notes: 3 students
+  link: https://tntech-ngin.github.io/S24-CSC4780/
+- date: '2024-01'
+  category: teaching
+  type: course
+  title: CSC7560 Advanced Computer Networking
+  when: Spring 2024
+  role: instructor
+  notes: 11 students
+  link: https://tntech-ngin.github.io/S24-CSC7560/
+- date: '2023-08'
+  category: teaching
+  type: course
+  title: CSC4200/5200 Computer Networking
+  when: Fall 2023
+  role: instructor
+  notes: 35 students
+  link: https://tntech-ngin.github.io/F23-CSC4200/
+- date: '2023-01'
+  category: teaching
+  type: course
+  title: CSC6730 Advanced Computer Networking
+  when: Spring 2023
+  role: instructor
+  notes: 11 students
+  link: https://tntech-ngin.github.io/S23-CSC6730/
+- date: '2023-01'
+  category: teaching
+  type: course
+  title: CSC4200/5200 Computer Networking
+  when: Spring 2023
+  role: instructor
+  notes: 13 students
+  link: https://tntech-ngin.github.io/S23-CSC4200/
+- date: '2022-08'
+  category: teaching
+  type: course
+  title: CSC2310 Object Oriented Programming
+  when: Fall 2022
+  role: instructor
+  notes: 65 students
+  link: https://tntech-ngin.github.io/F22-CSC2310/
+- date: '2022-08'
+  category: teaching
+  type: course
+  title: CSC6910 Computer Science Seminar
+  when: Fall 2022
+  role: instructor
+  notes: 23 students
+  link: https://tntech-ngin.github.io/F22-CSC6910/
+- date: '2022-01'
+  category: teaching
+  type: course
+  title: CSC4200/5200 Computer Networking
+  when: Spring 2022
+  role: instructor
+  notes: 35 students
+  link: https://tntech-ngin.github.io/S22-CSC4200/
+- date: '2021-08'
+  category: teaching
+  type: course
+  title: CSC6730 Advanced Computer Networking
+  when: Fall 2021
+  role: instructor
+  notes: 18 students
+  link: https://tntech-ngin.github.io/F21-CSC6730/
+- date: '2021-08'
+  category: teaching
+  type: course
+  title: CSC1020 Connections to Computing
+  when: Fall 2021
+  role: instructor
+  notes: 30 students
+  link: https://tntech-ngin.github.io/F21-CSC1020/
+- date: '2021-01'
+  category: teaching
+  type: course
+  title: CSC4200/5200 Computer Networks
+  when: Spring 2021
+  role: instructor
+  notes: 35 students
+  link: https://tntech-ngin.github.io/csc4200/
+- date: '2020-08'
+  category: teaching
+  type: course
+  title: CSC4200/5200 Computer Networks
+  when: Fall 2020
+  role: instructor
+  notes: 35 students
+  link: https://tntech-ngin.github.io/csc4200/
+- date: '2020-01'
+  category: teaching
+  type: course
+  title: CSC7970 Advanced Computer Networks
+  when: Spring 2020
+  role: instructor
+  notes: 9 students
+  link: https://tntech-ngin.github.io/csc7970/
+- date: '2019-08'
+  category: teaching
+  type: course
+  title: CSC4200/5200 Computer Networks
+  when: Fall 2019
+  role: instructor
+  notes: 31 students
+  link: https://tntech-ngin.github.io/csc4200/
+- date: '2026'
+  category: service
+  type: PC
+  title: TPC member, IEEE INFOCOM 2027
+  end: '2027'
+- date: '2026-11-15'
+  category: service
+  type: PC
+  title: IEEE INFOCOM 2027 TPC Meeting
+  role: TPC member
+  notes: Yeshiva University Beren Campus, New York City
+  link: https://infocom2027.ieee-infocom.org/ieee-infocom-2027-tpc-meeting-program-and-logistics
+- date: '2026-09-11'
+  category: service
+  type: PC
+  title: Technical Program Committee Member, IEEE NetSoft 2027
+- date: '2026-08-17'
+  category: service
+  type: PC
+  title: Technical Program Committee Member, ICDCN 2027
+- date: '2026-08-17'
+  category: service
+  type: PC
+  title: Program Committee Member, IEEE ISM 2026
+- date: '2026-07-21'
+  category: service
+  type: review
+  title: Peer Reviewer, IEEE/ACM Transactions on Networking
+- date: '2026'
+  category: service
+  type: chair
+  title: TPC Co-Chair, IEEE ANTS 2026
+- date: '2025'
+  category: service
+  type: PC
+  title: TPC member, IEEE INFOCOM 2026
+  end: '2026'
+- date: '2026'
+  category: service
+  type: PC
+  title: IEEE VNC, Montréal, Canada
+- date: '2025'
+  category: service
+  type: chair
+  title: Session Chair, IEEE ICCCN
+- date: '2025'
+  category: service
+  type: PC
+  title: IEEE ISM '25, Naples, Italy
+- date: '2025'
+  category: service
+  type: PC
+  title: IEEE INFOCOM, London, UK
+- date: '2025'
+  category: service
+  type: university
+  title: Graduate Coordinator
+  end: present
+- date: '2024-05-20'
+  category: service
+  type: chair
+  title: TPC Co-Chair, CNERT Workshop at IEEE INFOCOM 2024
+  link: /news/news-2024-cnert/
+- date: '2024'
+  category: service
+  type: PC
+  title: IEEE ISM '24, Tokyo, Japan
+- date: '2024'
+  category: service
+  type: PC
+  title: 2nd Workshop on Metaverse-based Networking, Computing and Security (MetaNCS), IEEE ICC, Denver
+- date: '2023'
+  category: service
+  type: chair
+  title: Session Chair, IFIP Networking
+- date: '2023'
+  category: service
+  type: chair
+  title: Session Chair, IEEE VNC
+- date: '2023'
+  category: service
+  type: PC
+  title: IEEE ISM, Laguna Hills, California
+- date: '2023'
+  category: service
+  type: PC
+  title: ACM ICN, Reykjavik
+- date: '2023'
+  category: service
+  type: PC
+  title: IEEE JCC, San Francisco
+- date: '2023'
+  category: service
+  type: PC
+  title: IEEE ISM, Naples, Italy
+- date: '2023'
+  category: service
+  type: university
+  title: College of Engineering Graduate Executive Committee
+  end: present
+- date: '2023'
+  category: service
+  type: university
+  title: Tennessee Tech One-to-One Technology Committee
+  end: '2024'
+- date: '2023'
+  category: service
+  type: university
+  title: ITS Search Committee
+- date: '2023'
+  category: service
+  type: university
+  title: CS Faculty Search Committee
+- date: '2022'
+  category: service
+  type: PC
+  title: HotICN
+- date: '2022'
+  category: service
+  type: PC
+  title: ACM ICN
+- date: '2022'
+  category: service
+  type: university
+  title: CS Graduate Committee
+  end: present
+- date: '2022'
+  category: service
+  type: university
+  title: CS Faculty Search Committee
+- date: '2021'
+  category: service
+  type: review panel
+  title: National Science Foundation Review Panels
+  end: '2026'
+- date: '2021'
+  category: service
+  type: chair
+  title: General Chair, IEEE CloudNet 2021 (Virtual Conference)
+- date: '2021'
+  category: service
+  type: chair
+  title: TPC Chair, Next-Generation Networking Paradigms for Low Latency Applications, ACM CoNEXT 2021 (Virtual Conference)
+- date: '2021'
+  category: service
+  type: chair
+  title: Session Chair (Scheduling), IEEE VNC
+- date: '2021'
+  category: service
+  type: chair
+  title: Co-Chair, NDN Community Meeting, NIST, Washington DC
+- date: '2021'
+  category: service
+  type: editorial
+  title: Editorial Board, MDPI Electronics
+  end: present
+- date: '2021'
+  category: service
+  type: editorial
+  title: Editorial Board, MDPI Mathematics
+  end: present
+- date: '2021'
+  category: service
+  type: PC
+  title: Demos and Posters track, ACM ICN
+- date: '2021'
+  category: service
+  type: workshop
+  title: Organizer, Distributed Interactive Systems for Collaboration Experiences (DISCE), IEEE VR 2021 (Virtual Conference)
+- date: '2021'
+  category: service
+  type: panel
+  title: Panelist (with Doug Jennewein, Jeff Whitworth; moderated by Eli Dart), "Implementing Science DMZ as Intended," National Science Foundation PI Workshop, September 15
+- date: '2021'
+  category: service
+  type: university
+  title: CS Faculty Search Committee
+- date: '2020'
+  category: service
+  type: chair
+  title: Session Chair (NDN Trial Deployments), Named Data Networking Community Meeting (Virtual Conference)
+- date: '2020'
+  category: service
+  type: chair
+  title: Travel Chair, ACM Conference on Information-Centric Networking (ACM-ICN)
+- date: '2020'
+  category: service
+  type: editorial
+  title: Reviewer Board, MDPI Electronics
+  end: present
+- date: '2020'
+  category: service
+  type: PC
+  title: Workshop on Information-Centric Networking Solutions for Real-World Applications (ICN-SRA)
+- date: '2020'
+  category: service
+  type: university
+  title: Network Upgrade and Science DMZ Implementation Committee
+  end: '2024'
+- date: '2020'
+  category: service
+  type: university
+  title: Engineering Building Committees (HVAC, Power, Vibration)
+  end: '2022'
+- date: '2020'
+  category: service
+  type: university
+  title: Cloud Infrastructure for Research Committee
+- date: '2019'
+  category: service
+  type: PC
+  title: Third International Conference on Smart Technologies in Data Science and Communication (SMART-DSC)
+- date: '2019'
+  category: service
+  type: PC
+  title: 1st ACM CoNEXT Workshop on Emerging in-Network Computing Paradigms (ENCP)
+- date: '2019'
+  category: service
+  type: PC
+  title: Demos and Posters track, ACM ICN
+- date: '2018'
+  category: service
+  type: panel
+  title: Moderator (with L. Zhang, A. Afanasyev, T. Hasegawa, A. Grieco, T. Leng), "Real-World ICN Deployments — Perspective and Challenges," IEEE ICC, Kansas City, MO
+- date: '2017'
+  category: service
+  type: PC
+  title: '"NOM: Named-Oriented Mobility" workshop, INFOCOM'
+- date: '2017'
+  category: service
+  type: PC
+  title: Demos and Posters track, ACM ICN
+- date: '2017'
+  category: service
+  type: workshop
+  title: Judge, NDN Hackathon
+- date: '2017'
+  category: service
+  type: workshop
+  title: 'Tutorial: "Running IoT Applications over ICN," ICN 2017, Berlin, Germany'
+- date: '2017'
+  category: service
+  type: workshop
+  title: NDN Hackathon, University of Memphis, Memphis, TN
+- date: '2016'
+  category: service
+  type: workshop
+  title: NDN Retreat and Hackathon, Colorado State University, Fort Collins, CO
+- date: '2016'
+  category: service
+  type: workshop
+  title: NDN Hackathon, UCSD, La Jolla, CA
+- date: ''
+  category: service
+  type: membership
+  title: Senior Member, IEEE
+- date: ''
+  category: service
+  type: review
+  title: Reviewer, Computer Networks (Elsevier)
