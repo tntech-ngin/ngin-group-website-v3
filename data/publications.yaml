@@ -1,5 +1,15 @@
 - year: 2026
   entries:
+  - key: moon2026multimodal
+    title: 'Multimodal Deep Learning for Flood Detection: Integrating Water Level Sensors, Rainfall, Cameras, and Satellite Imagery'
+    authors:
+    - Ipshita Ahmed Moon
+    - Jack Barbieri
+    - Alfred Kalyanapu
+    - Susmit Shannigrahi
+    venue: Future Generation Computer Systems
+    year: 2026
+    link: ''
   - key: puttaswamy2026scaling
     title: Scaling Synthetic Network Traffic Generation with Diffusion Transformers
     authors:

@@ -26,6 +26,13 @@
   role: presenter
   notes: XR Security 2026 (with ACM MobiCom 2026), UT Austin
   link: https://xrsecurity.github.io/2026/
+- date: '2026-10-06'
+  category: research
+  type: paper
+  title: 'Multimodal Deep Learning for Flood Detection: Integrating Water Level Sensors, Rainfall, Cameras, and Satellite Imagery'
+  role: accepted
+  notes: 'Future Generation Computer Systems (Elsevier), VSI: Distributed Intelligence for NDM'
+  link: /publication/
 - date: '2026-09-29'
   category: research
   type: workshop

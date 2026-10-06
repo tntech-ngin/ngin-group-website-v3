@@ -24,6 +24,10 @@ In the field, low-power sensor nodes exchange data over a LoRa mesh network and 
 
 This complements the NGIN Lab's other low-cost environmental sensing work (see the [turbidity sensor project](/project/turbidity-sensor/)).
 
+**Publications:**
+
+- Ipshita Ahmed Moon, Jack Barbieri, Alfred Kalyanapu, and Susmit Shannigrahi. ["Multimodal Deep Learning for Flood Detection: Integrating Water Level Sensors, Rainfall, Cameras, and Satellite Imagery."](/news/news-2026-fgcs-flood/) *Future Generation Computer Systems*, 2026.
+
 **Funding:** Environmental Protection Agency, Grant #982000 — *Innovative Solutions for Improving Water Quality and Strengthening Local Economies in the Gulf of America Watershed* ($993,953, 2025–)
 
 **Team:** Susmit Shannigrahi (Co-PI), Justin Murdock (PI), Alfred Kalyanapu (Co-PI)
